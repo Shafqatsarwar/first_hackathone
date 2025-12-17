@@ -1,115 +1,119 @@
-# Feature Specification: [FEATURE NAME]
+# Chapter Specification: [CHAPTER NAME]
 
-**Feature Branch**: `[###-feature-name]`  
-**Created**: [DATE]  
-**Status**: Draft  
+**Chapter Branch**: `[###-chapter-name]`
+**Created**: [DATE]
+**Status**: Draft
 **Input**: User description: "$ARGUMENTS"
 
-## User Scenarios & Testing *(mandatory)*
+## Learning Scenarios & Assessment *(mandatory)*
 
 <!--
-  IMPORTANT: User stories should be PRIORITIZED as user journeys ordered by importance.
-  Each user story/journey must be INDEPENDENTLY TESTABLE - meaning if you implement just ONE of them,
-  you should still have a viable MVP (Minimum Viable Product) that delivers value.
-  
-  Assign priorities (P1, P2, P3, etc.) to each story, where P1 is the most critical.
-  Think of each story as a standalone slice of functionality that can be:
+  IMPORTANT: Learning scenarios should be PRIORITIZED as student learning journeys ordered by importance.
+  Each learning scenario/journey must be INDEPENDENTLY ASSESSABLE - meaning if you implement just ONE of them,
+  students should still gain valuable knowledge that builds toward overall course objectives.
+
+  Assign priorities (P1, P2, P3, etc.) to each scenario, where P1 is the most critical.
+  Think of each scenario as a standalone learning module that can be:
   - Developed independently
-  - Tested independently
-  - Deployed independently
-  - Demonstrated to users independently
+  - Tested independently with students
+  - Integrated independently into course curriculum
+  - Demonstrated to educators independently
 -->
 
-### User Story 1 - [Brief Title] (Priority: P1)
+### Learning Scenario 1 - [Brief Title] (Priority: P1)
 
-[Describe this user journey in plain language]
+[Describe this learning journey in plain language, how students will engage with the material]
 
-**Why this priority**: [Explain the value and why it has this priority level]
+**Why this priority**: [Explain the educational value and why it has this priority level]
 
-**Independent Test**: [Describe how this can be tested independently - e.g., "Can be fully tested by [specific action] and delivers [specific value]"]
+**Independent Assessment**: [Describe how student learning can be assessed independently - e.g., "Can be fully assessed through [specific exercise] and demonstrates [specific competency]"]
 
-**Acceptance Scenarios**:
+**Learning Objectives**:
 
-1. **Given** [initial state], **When** [action], **Then** [expected outcome]
-2. **Given** [initial state], **When** [action], **Then** [expected outcome]
-
----
-
-### User Story 2 - [Brief Title] (Priority: P2)
-
-[Describe this user journey in plain language]
-
-**Why this priority**: [Explain the value and why it has this priority level]
-
-**Independent Test**: [Describe how this can be tested independently]
-
-**Acceptance Scenarios**:
-
-1. **Given** [initial state], **When** [action], **Then** [expected outcome]
+1. **Students will understand**: [key concept 1]
+2. **Students will demonstrate**: [key skill 1]
+3. **Students will apply**: [key application 1]
 
 ---
 
-### User Story 3 - [Brief Title] (Priority: P3)
+### Learning Scenario 2 - [Brief Title] (Priority: P2)
 
-[Describe this user journey in plain language]
+[Describe this learning journey in plain language]
 
-**Why this priority**: [Explain the value and why it has this priority level]
+**Why this priority**: [Explain the educational value and why it has this priority level]
 
-**Independent Test**: [Describe how this can be tested independently]
+**Independent Assessment**: [Describe how student learning can be assessed independently]
 
-**Acceptance Scenarios**:
+**Learning Objectives**:
 
-1. **Given** [initial state], **When** [action], **Then** [expected outcome]
+1. **Students will understand**: [key concept 2]
+2. **Students will demonstrate**: [key skill 2]
 
 ---
 
-[Add more user stories as needed, each with an assigned priority]
+### Learning Scenario 3 - [Brief Title] (Priority: P3)
 
-### Edge Cases
+[Describe this learning journey in plain language]
+
+**Why this priority**: [Explain the educational value and why it has this priority level]
+
+**Independent Assessment**: [Describe how student learning can be assessed independently]
+
+**Learning Objectives**:
+
+1. **Students will understand**: [key concept 3]
+2. **Students will demonstrate**: [key skill 3]
+
+---
+
+[Add more learning scenarios as needed, each with an assigned priority]
+
+### Pedagogical Edge Cases
 
 <!--
   ACTION REQUIRED: The content in this section represents placeholders.
-  Fill them out with the right edge cases.
+  Fill them out with the right pedagogical edge cases.
 -->
 
-- What happens when [boundary condition]?
-- How does system handle [error scenario]?
+- How do students with [different background] approach [complex concept]?
+- What happens when [boundary learning condition] occurs?
+- How does the curriculum handle [diverse learning needs]?
 
-## Requirements *(mandatory)*
+## Content Requirements *(mandatory)*
 
 <!--
   ACTION REQUIRED: The content in this section represents placeholders.
-  Fill them out with the right functional requirements.
+  Fill them out with the right educational requirements.
 -->
 
-### Functional Requirements
+### Instructional Requirements
 
-- **FR-001**: System MUST [specific capability, e.g., "allow users to create accounts"]
-- **FR-002**: System MUST [specific capability, e.g., "validate email addresses"]  
-- **FR-003**: Users MUST be able to [key interaction, e.g., "reset their password"]
-- **FR-004**: System MUST [data requirement, e.g., "persist user preferences"]
-- **FR-005**: System MUST [behavior, e.g., "log all security events"]
+- **IR-001**: Content MUST follow educational principles outlined in our constitution, emphasizing hands-on learning through practical applications
+- **IR-002**: Materials MUST include clear learning objectives, concept summaries, and exercises at appropriate difficulty levels
+- **IR-003**: Students MUST be able to understand complex Physical AI and Humanoid Robotics concepts through accessible explanations
+- **IR-004**: Content MUST include code examples, mathematical formulations, and practical implementations that are technically accurate
+- **IR-005**: Materials MUST connect academic concepts to real-world robotics and AI applications in industry
 
 *Example of marking unclear requirements:*
 
-- **FR-006**: System MUST authenticate users via [NEEDS CLARIFICATION: auth method not specified - email/password, SSO, OAuth?]
-- **FR-007**: System MUST retain user data for [NEEDS CLARIFICATION: retention period not specified]
+- **IR-006**: Content MUST address student prerequisites via [NEEDS CLARIFICATION: assumed background knowledge - math level, programming skills, robotics familiarity?]
+- **IR-007**: Curriculum MUST include [NEEDS CLARIFICATION: hardware requirements - simulation environments, physical robots?]
 
-### Key Entities *(include if feature involves data)*
+### Key Learning Concepts *(include if chapter involves data)*
 
-- **[Entity 1]**: [What it represents, key attributes without implementation]
-- **[Entity 2]**: [What it represents, relationships to other entities]
+- **[Concept 1]**: [What it represents, key attributes without implementation]
+- **[Concept 2]**: [What it represents, relationships to other concepts]
 
-## Success Criteria *(mandatory)*
+## Educational Success Criteria *(mandatory)*
 
 <!--
-  ACTION REQUIRED: Define measurable success criteria.
-  These must be technology-agnostic and measurable.
+  ACTION REQUIRED: Define measurable educational success criteria.
+  These must be pedagogically sound and measurable.
 -->
 
-### Measurable Outcomes
+### Measurable Learning Outcomes
 
-- **SC-001**: [Measurable metric, e.g., "Users can complete account creation in under 2 minutes"]
-- **SC-002**: [Measurable metric, e.g., "System handles 1000 concurrent users without degradation"]
-- **SC-003**: [User satisfaction metric, e.g., "90% of users successfully complete primary task on first attempt"]
-- **SC-004**: [Business metric, e.g., "Reduce support tickets related to [X] by 50%"]
+- **SO-001**: [Measurable metric, e.g., "Students can implement a basic robot controller in under 3 hours"]
+- **SO-002**: [Measurable metric, e.g., "Students demonstrate understanding of sensor fusion with 85% accuracy"]
+- **SO-003**: [Learning satisfaction metric, e.g., "90% of students rate concept explanations as clear and accessible"]
+- **SO-004**: [Knowledge retention metric, e.g., "Students retain core robotics concepts with 80% accuracy after 4 weeks"]
