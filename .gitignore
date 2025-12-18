@@ -1,2 +1,14 @@
-# Project ignore files  
-.env 
+# Project ignore files
+# Environment files (do NOT commit secrets)
+.env
+.env.local
+.env.*
+
+# Virtualenvs and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+build/
+dist/
