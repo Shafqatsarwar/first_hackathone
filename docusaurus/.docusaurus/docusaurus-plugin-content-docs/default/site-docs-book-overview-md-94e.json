@@ -1,0 +1,23 @@
+{
+  "id": "book-overview",
+  "title": "Book Overview — Physical AI & Humanoid Robotics",
+  "description": "This interactive textbook teaches how to design, simulate, and deploy humanoid robots that interact naturally with people and environments. The demo site includes:",
+  "source": "@site/docs/book-overview.md",
+  "sourceDirName": ".",
+  "slug": "/book-overview",
+  "permalink": "/docs/book-overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/book-overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to Physical AI & Humanoid Robotics",
+    "permalink": "/docs/intro"
+  }
+}

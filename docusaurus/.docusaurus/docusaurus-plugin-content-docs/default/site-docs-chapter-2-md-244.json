@@ -1,0 +1,17 @@
+{
+  "id": "chapter2",
+  "title": "Doc Two (Migrated)",
+  "description": "Content for doc2. Replace with real chapter content as needed.",
+  "source": "@site/docs/chapter2.md",
+  "sourceDirName": ".",
+  "slug": "/chapter2",
+  "permalink": "/docs/chapter2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/chapter2.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Doc Two (Migrated)"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "book-chapter",
+  "title": "Demo Chapter — Project Requirements Summary",
+  "description": "This concise chapter maps the hackathon requirements into the demo deliverables and how the repository satisfies them.",
+  "source": "@site/docs/book-chapter.md",
+  "sourceDirName": ".",
+  "slug": "/book-chapter",
+  "permalink": "/docs/book-chapter",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/book-chapter.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  }
+}

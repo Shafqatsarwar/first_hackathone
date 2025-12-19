@@ -1,0 +1,99 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "archived/README",
+              "path": "/docs/archived/"
+            },
+            {
+              "id": "book-chapter",
+              "path": "/docs/book-chapter"
+            },
+            {
+              "id": "book-overview",
+              "path": "/docs/book-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter1",
+              "path": "/docs/chapter1"
+            },
+            {
+              "id": "chapter2",
+              "path": "/docs/chapter2"
+            },
+            {
+              "id": "chapter3",
+              "path": "/docs/chapter3"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1_ros/content",
+              "path": "/docs/module1_ros/content"
+            },
+            {
+              "id": "module2_simulation/content",
+              "path": "/docs/module2_simulation/content"
+            },
+            {
+              "id": "module3_nvidia_isaac/content",
+              "path": "/docs/module3_nvidia_isaac/content"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "chatbot": {
+      "path": "/chatbot",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/chatbot",
+          "mainDocId": "docs/intro",
+          "docs": [
+            {
+              "id": "docs/intro",
+              "path": "/chatbot/docs/intro",
+              "sidebar": "defaultSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "defaultSidebar": {
+              "link": {
+                "path": "/chatbot/docs/intro",
+                "label": "docs/intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "module4_vla/content",
+  "title": "Module 4: Vision-Language-Action (VLA)",
+  "description": "Overview",
+  "source": "@site/docs/module4_vla/content.md",
+  "sourceDirName": "module4_vla",
+  "slug": "/module4_vla/content",
+  "permalink": "/docs/module4_vla/content",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module4_vla/content.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "module3_nvidia_isaac/content",
+  "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac™)",
+  "description": "Overview",
+  "source": "@site/docs/module3_nvidia_isaac/content.md",
+  "sourceDirName": "module3_nvidia_isaac",
+  "slug": "/module3_nvidia_isaac/content",
+  "permalink": "/docs/module3_nvidia_isaac/content",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module3_nvidia_isaac/content.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}
