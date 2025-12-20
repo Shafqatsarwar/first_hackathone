@@ -29,6 +29,18 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'ur'], // English and Urdu for the hackathon requirements
+    localeConfigs: {
+      en: {
+        direction: 'ltr',
+        htmlLang: 'en-US',
+        label: 'English',
+      },
+      ur: {
+        direction: 'ltr', // Keep RTL layout disabled to preserve UI consistency
+        htmlLang: 'ur',
+        label: 'اردو',
+      },
+    },
   },
 
   presets: [
