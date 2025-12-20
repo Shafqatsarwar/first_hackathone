@@ -1,3 +1,0 @@
-Title: Example book excerpt
-
-This is a short sample excerpt to use as a context file for mock ingestion and local testing of the RAG demo. Replace this text with a chapter, section, or PDF-exported text from your book when you're ready to test real ingestion.

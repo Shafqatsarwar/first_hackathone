@@ -8,7 +8,7 @@ export default {
   "tagline": "Bridging the gap between the digital brain and the physical body",
   "favicon": "img/favicon.ico",
   "url": "https://your-panaversity-site.vercel.app",
-  "baseUrl": "/",
+  "baseUrl": "/ur/",
   "organizationName": "panaversity",
   "projectName": "physical-ai-textbook",
   "onBrokenLinks": "throw",
@@ -334,8 +334,9 @@ export default {
       "@docusaurus/plugin-content-docs",
       {
         "id": "chatbot",
-        "path": "chatbot",
-        "routeBasePath": "chatbot"
+        "path": "chatbot/docs",
+        "routeBasePath": "chatbot",
+        "sidebarPath": "D:\\Panavers\\Speckit_GeminiCLI\\first_hackathone\\docusaurus\\chatbot\\sidebars.js"
       }
     ],
     [

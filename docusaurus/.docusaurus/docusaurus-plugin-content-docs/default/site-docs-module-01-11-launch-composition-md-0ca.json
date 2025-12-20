@@ -1,0 +1,28 @@
+{
+  "id": "module-01/launch-composition",
+  "title": "11. Launch and Composition",
+  "description": "ROS 2 launch files and composition allow you to bring sets of nodes online deterministically so the humanoid nervous system boots with valid configurations.",
+  "source": "@site/docs/module-01/11-launch-composition.md",
+  "sourceDirName": "module-01",
+  "slug": "/module-01/launch-composition",
+  "permalink": "/ur/docs/module-01/launch-composition",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-01/11-launch-composition.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "title": "11. Launch and Composition",
+    "sidebar_label": "11 Launch & Composition"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "10 Actuators & Feedback",
+    "permalink": "/ur/docs/module-01/actuators-feedback"
+  },
+  "next": {
+    "title": "01 Digital Twins",
+    "permalink": "/ur/docs/module-02/digital-twins"
+  }
+}

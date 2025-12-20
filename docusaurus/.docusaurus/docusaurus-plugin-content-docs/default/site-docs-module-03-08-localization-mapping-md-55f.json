@@ -1,0 +1,28 @@
+{
+  "id": "module-03/localization-mapping",
+  "title": "08. Localization and Mapping in Dynamic Environments",
+  "description": "Dynamic scenes require frequent map updates, sensor fusion, and adaptive planning to maintain accurate localization.",
+  "source": "@site/docs/module-03/08-localization-mapping.md",
+  "sourceDirName": "module-03",
+  "slug": "/module-03/localization-mapping",
+  "permalink": "/ur/docs/module-03/localization-mapping",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/08-localization-mapping.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "08. Localization and Mapping in Dynamic Environments",
+    "sidebar_label": "08 Localization & Mapping"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "07 Isaac ROS",
+    "permalink": "/ur/docs/module-03/isaac-ros-hw"
+  },
+  "next": {
+    "title": "09 Nav2 Navigation",
+    "permalink": "/ur/docs/module-03/nav2"
+  }
+}

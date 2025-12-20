@@ -1,0 +1,14 @@
+{
+  "id": "archived/README",
+  "title": "Archived docs",
+  "description": "The module and hardware folders were archived to keep the demo clean. If you need to restore any archived content, move files back into docusaurus/docs/ and update docusaurus/sidebars.js.",
+  "source": "@site/chatbot/docs/archived/README.md",
+  "sourceDirName": "archived",
+  "slug": "/archived/",
+  "permalink": "/ur/chatbot/archived/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

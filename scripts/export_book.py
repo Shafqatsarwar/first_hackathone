@@ -16,7 +16,11 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = ROOT / "build" / "book"
-DOC_PATHS = [ROOT / "docusaurus" / "docs", ROOT / "docs"]
+DOC_PATHS = [
+    ROOT / "modules",
+    ROOT / "docusaurus" / "docs",
+    ROOT / "docs",
+]
 
 
 def strip_front_matter(text: str) -> str:
@@ -26,10 +30,15 @@ def strip_front_matter(text: str) -> str:
 
 def collect_markdown_files() -> list:
     files = []
-    for p in DOC_PATHS:
-        if not p.exists():
+    seen = set()
+    for base in DOC_PATHS:
+        if not base.exists():
             continue
-        for f in sorted(p.rglob("*.md")):
+        for f in sorted(base.rglob("*.md")):
+            rel = f.relative_to(base).as_posix()
+            if rel in seen:
+                continue
+            seen.add(rel)
             files.append(f)
     return files
 

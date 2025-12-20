@@ -1,18 +1,23 @@
 {
-  "id": "docs/intro",
-  "title": "Physical AI & Humanoid Robotics Textbook",
-  "description": "Hackathon demo site.",
+  "id": "intro",
+  "title": "Introduction to Physical AI & Humanoid Robotics",
+  "description": "Welcome to the Future of AI",
   "source": "@site/chatbot/docs/intro.md",
-  "sourceDirName": "docs",
-  "slug": "/docs/intro",
-  "permalink": "/chatbot/docs/intro",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/ur/chatbot/",
   "draft": false,
   "unlisted": false,
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1
+    "sidebar_position": 1,
+    "slug": "/"
   },
-  "sidebar": "defaultSidebar"
+  "sidebar": "chatbotSidebar",
+  "next": {
+    "title": "Demo Chapter — Project Requirements Summary",
+    "permalink": "/ur/chatbot/book-chapter"
+  }
 }

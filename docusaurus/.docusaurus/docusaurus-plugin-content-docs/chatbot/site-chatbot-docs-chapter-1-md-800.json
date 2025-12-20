@@ -1,0 +1,16 @@
+{
+  "id": "chapter1",
+  "title": "Module 1 — Introduction (Migrated)",
+  "description": "This is a migrated chapter from the textbook. Start with Module 1 to learn about ROS 2 and robotic middleware.",
+  "source": "@site/chatbot/docs/chapter1.md",
+  "sourceDirName": ".",
+  "slug": "/chapter1",
+  "permalink": "/ur/chatbot/chapter1",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Module 1 — Introduction (Migrated)"
+  }
+}

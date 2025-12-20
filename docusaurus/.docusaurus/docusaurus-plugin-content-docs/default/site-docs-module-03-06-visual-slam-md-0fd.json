@@ -1,0 +1,28 @@
+{
+  "id": "module-03/visual-slam",
+  "title": "06. Visual SLAM Fundamentals",
+  "description": "SLAM combines sensor data and odometry to estimate the robot's position, and Isaac ROS accelerates this with GPU support.",
+  "source": "@site/docs/module-03/06-visual-slam.md",
+  "sourceDirName": "module-03",
+  "slug": "/module-03/visual-slam",
+  "permalink": "/ur/docs/module-03/visual-slam",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/06-visual-slam.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "06. Visual SLAM Fundamentals",
+    "sidebar_label": "06 Visual SLAM"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "05 Vision Models",
+    "permalink": "/ur/docs/module-03/training-vision-models"
+  },
+  "next": {
+    "title": "07 Isaac ROS",
+    "permalink": "/ur/docs/module-03/isaac-ros-hw"
+  }
+}

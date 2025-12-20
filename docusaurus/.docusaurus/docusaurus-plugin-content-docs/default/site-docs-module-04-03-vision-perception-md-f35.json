@@ -1,0 +1,28 @@
+{
+  "id": "module-04/vision-perception",
+  "title": "03. Vision Perception for VLA",
+  "description": "Vision feeds the language-action loop with object awareness, scene understanding, and affordances.",
+  "source": "@site/docs/module-04/03-vision-perception.md",
+  "sourceDirName": "module-04",
+  "slug": "/module-04/vision-perception",
+  "permalink": "/ur/docs/module-04/vision-perception",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/03-vision-perception.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "03. Vision Perception for VLA",
+    "sidebar_label": "03 Vision Perception"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "02 LLMs",
+    "permalink": "/ur/docs/module-04/llms-in-vla"
+  },
+  "next": {
+    "title": "04 Multimodal Fusion",
+    "permalink": "/ur/docs/module-04/multimodal-fusion"
+  }
+}

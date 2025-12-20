@@ -1,0 +1,28 @@
+{
+  "id": "module-02/unity-interaction",
+  "title": "08. Unity for Human–Robot Interaction",
+  "description": "Unity provides photorealistic rendering, interaction scenarios, and synthetic vision datasets for humanoid perception testing.",
+  "source": "@site/docs/module-02/08-unity-interaction.md",
+  "sourceDirName": "module-02",
+  "slug": "/module-02/unity-interaction",
+  "permalink": "/ur/docs/module-02/unity-interaction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/08-unity-interaction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "08. Unity for Human–Robot Interaction",
+    "sidebar_label": "08 Unity Interaction"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "07 Noise & Latency",
+    "permalink": "/ur/docs/module-02/noise-latency"
+  },
+  "next": {
+    "title": "09 Photorealism",
+    "permalink": "/ur/docs/module-02/photorealism"
+  }
+}

@@ -1,15 +1,28 @@
 ---
 sidebar_position: 2
+title: "Book Overview"
 ---
 
-# Book Overview — Physical AI & Humanoid Robotics
+# Physical AI & Humanoid Robotics — Book Overview
 
-This interactive textbook teaches how to design, simulate, and deploy humanoid robots that interact naturally with people and environments. The demo site includes:
+This overview explains how the textbook maps to the **RAG chatbot modules** and your learning workflow.
 
-- Short chapters explaining core concepts (ROS 2, simulation, perception, VLA)
-- A RAG-powered chat demo to ask questions about the book content
-- Hands-on exercises and sample code hosted in the repository
+## How to Use This Textbook
 
-Use the `context.txt` file at the repository root to test the RAG ingestion workflow (see the project `GUIDE.md` for commands). For safe local testing, keep `MOCK_MODE=true` in your `.env` to avoid external LLM calls.
+1. **Start Here:** Read this overview to understand the structure.  
+2. **Explore Modules:** Each module (01–04) is available in the `/chatbot` section with full content:
+   - Module 01 — Robotic Nervous System (ROS 2)  
+   - Module 02 — Digital Twin (Gazebo & Unity)  
+   - Module 03 — AI-Robot Brain (NVIDIA Isaac™)  
+   - Module 04 — Vision-Language-Action (VLA)
+3. **Demo & Walkthroughs:** Visit `book-chapter.md` under `/chatbot/docs` for demo deliverables, hackathon mappings, and example exercises.
+4. **Chatbot Integration:** All modules are structured for **OpenAI RAG** queries — you can ask questions and get answers from the text directly.
 
-Replace this overview with your preferred book intro or a PDF-exported chapter when ready.
+---
+
+## Notes
+
+- The main sidebar keeps navigation simple.  
+- Content is structured in **chunks (~1–3 pages per chapter)** for optimal retrieval.  
+- Exercises and examples are embedded in each module for hands-on practice.
+

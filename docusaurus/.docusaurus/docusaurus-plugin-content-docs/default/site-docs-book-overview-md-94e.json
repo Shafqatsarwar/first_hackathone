@@ -1,11 +1,11 @@
 {
   "id": "book-overview",
-  "title": "Book Overview — Physical AI & Humanoid Robotics",
-  "description": "This interactive textbook teaches how to design, simulate, and deploy humanoid robots that interact naturally with people and environments. The demo site includes:",
+  "title": "Book Overview",
+  "description": "This overview explains how the textbook maps to the RAG chatbot modules and your learning workflow.",
   "source": "@site/docs/book-overview.md",
   "sourceDirName": ".",
   "slug": "/book-overview",
-  "permalink": "/docs/book-overview",
+  "permalink": "/ur/docs/book-overview",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/book-overview.md",
@@ -13,11 +13,16 @@
   "version": "current",
   "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 2
+    "sidebar_position": 2,
+    "title": "Book Overview"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Introduction to Physical AI & Humanoid Robotics",
-    "permalink": "/docs/intro"
+    "title": "Physical AI Textbook Landing",
+    "permalink": "/ur/docs/intro"
+  },
+  "next": {
+    "title": "01 Physical AI Nervous System",
+    "permalink": "/ur/docs/module-01/physical-ai-nervous-system"
   }
 }

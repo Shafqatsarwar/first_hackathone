@@ -1,0 +1,28 @@
+{
+  "id": "module-03/gpu-physics-perception",
+  "title": "03. GPU-Accelerated Physics and Perception",
+  "description": "Physics and vision computations benefit from CUDA and tensor cores for dynamics, collision, and sensor simulation workloads.",
+  "source": "@site/docs/module-03/03-gpu-physics-perception.md",
+  "sourceDirName": "module-03",
+  "slug": "/module-03/gpu-physics-perception",
+  "permalink": "/ur/docs/module-03/gpu-physics-perception",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/03-gpu-physics-perception.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "03. GPU-Accelerated Physics and Perception",
+    "sidebar_label": "03 GPU Physics & Perception"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "02 Isaac Sim Architecture",
+    "permalink": "/ur/docs/module-03/isaac-sim-architecture"
+  },
+  "next": {
+    "title": "04 Synthetic Data",
+    "permalink": "/ur/docs/module-03/synthetic-data"
+  }
+}

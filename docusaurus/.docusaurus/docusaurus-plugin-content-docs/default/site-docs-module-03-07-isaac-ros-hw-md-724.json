@@ -1,0 +1,28 @@
+{
+  "id": "module-03/isaac-ros-hw",
+  "title": "07. Isaac ROS and Hardware Acceleration",
+  "description": "Isaac ROS exposes GPU-accelerated vision processing, mapping, and efficient ROS 2 communication with real hardware.",
+  "source": "@site/docs/module-03/07-isaac-ros-hw.md",
+  "sourceDirName": "module-03",
+  "slug": "/module-03/isaac-ros-hw",
+  "permalink": "/ur/docs/module-03/isaac-ros-hw",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/07-isaac-ros-hw.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "07. Isaac ROS and Hardware Acceleration",
+    "sidebar_label": "07 Isaac ROS"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "06 Visual SLAM",
+    "permalink": "/ur/docs/module-03/visual-slam"
+  },
+  "next": {
+    "title": "08 Localization & Mapping",
+    "permalink": "/ur/docs/module-03/localization-mapping"
+  }
+}

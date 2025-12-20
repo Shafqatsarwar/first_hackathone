@@ -1,0 +1,28 @@
+{
+  "id": "module-01/physical-ai-nervous-system",
+  "title": "01. Physical AI Nervous System Overview",
+  "description": "This chapter introduces the concept of a robotic nervous system built on ROS 2. Physical AI teams raw sensing, planning, and actuation by wiring sensors through ROS nodes so the humanoid platform can sense and react in real time.",
+  "source": "@site/docs/module-01/01-physical-ai-nervous-system.md",
+  "sourceDirName": "module-01",
+  "slug": "/module-01/physical-ai-nervous-system",
+  "permalink": "/ur/docs/module-01/physical-ai-nervous-system",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-01/01-physical-ai-nervous-system.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "01. Physical AI Nervous System Overview",
+    "sidebar_label": "01 Physical AI Nervous System"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Book Overview",
+    "permalink": "/ur/docs/book-overview"
+  },
+  "next": {
+    "title": "02 ROS 2 & DDS Philosophy",
+    "permalink": "/ur/docs/module-01/ros2-dds-philosophy"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "module-04/action-planning",
+  "title": "06. Action Planning from Language",
+  "description": "Translate language instructions into deterministic sub-goals and real-time controllers.",
+  "source": "@site/docs/module-04/06-action-planning.md",
+  "sourceDirName": "module-04",
+  "slug": "/module-04/action-planning",
+  "permalink": "/ur/docs/module-04/action-planning",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/06-action-planning.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "06. Action Planning from Language",
+    "sidebar_label": "06 Action Planning"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "05 Speech & Voice",
+    "permalink": "/ur/docs/module-04/speech-and-voice"
+  },
+  "next": {
+    "title": "07 Dialog Management",
+    "permalink": "/ur/docs/module-04/dialog-management"
+  }
+}

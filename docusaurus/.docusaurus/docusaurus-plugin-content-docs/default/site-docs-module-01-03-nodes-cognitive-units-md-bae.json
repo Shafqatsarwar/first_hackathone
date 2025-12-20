@@ -1,0 +1,28 @@
+{
+  "id": "module-01/nodes-cognitive-units",
+  "title": "03. Nodes as Cognitive Units",
+  "description": "Each ROS 2 node functions as a cognitive microservice. This chapter covers best practices for dividing responsibilities, sharing parameters, and instrumenting nodes for telemetry.",
+  "source": "@site/docs/module-01/03-nodes-cognitive-units.md",
+  "sourceDirName": "module-01",
+  "slug": "/module-01/nodes-cognitive-units",
+  "permalink": "/ur/docs/module-01/nodes-cognitive-units",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-01/03-nodes-cognitive-units.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "03. Nodes as Cognitive Units",
+    "sidebar_label": "03 Nodes as Cognitive Units"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "02 ROS 2 & DDS Philosophy",
+    "permalink": "/ur/docs/module-01/ros2-dds-philosophy"
+  },
+  "next": {
+    "title": "04 Topics, Services, Actions",
+    "permalink": "/ur/docs/module-01/topics-services-actions"
+  }
+}

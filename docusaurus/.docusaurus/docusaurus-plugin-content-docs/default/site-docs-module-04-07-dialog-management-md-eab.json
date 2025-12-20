@@ -1,0 +1,28 @@
+{
+  "id": "module-04/dialog-management",
+  "title": "07. Dialog Management in Embodied AI",
+  "description": "Maintain multi-turn conversations while grounding context in sensor data and recent actions.",
+  "source": "@site/docs/module-04/07-dialog-management.md",
+  "sourceDirName": "module-04",
+  "slug": "/module-04/dialog-management",
+  "permalink": "/ur/docs/module-04/dialog-management",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/07-dialog-management.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "07. Dialog Management in Embodied AI",
+    "sidebar_label": "07 Dialog Management"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "06 Action Planning",
+    "permalink": "/ur/docs/module-04/action-planning"
+  },
+  "next": {
+    "title": "08 Feedback Loops",
+    "permalink": "/ur/docs/module-04/feedback-loop"
+  }
+}

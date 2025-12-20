@@ -1,0 +1,28 @@
+{
+  "id": "module-03/synthetic-data",
+  "title": "04. Synthetic Data Generation Pipelines",
+  "description": "Synthetic datasets deliver perfect annotations—diverse environments, labels, and scenarios—for robust perception training.",
+  "source": "@site/docs/module-03/04-synthetic-data.md",
+  "sourceDirName": "module-03",
+  "slug": "/module-03/synthetic-data",
+  "permalink": "/ur/docs/module-03/synthetic-data",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/04-synthetic-data.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "04. Synthetic Data Generation Pipelines",
+    "sidebar_label": "04 Synthetic Data"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "03 GPU Physics & Perception",
+    "permalink": "/ur/docs/module-03/gpu-physics-perception"
+  },
+  "next": {
+    "title": "05 Vision Models",
+    "permalink": "/ur/docs/module-03/training-vision-models"
+  }
+}

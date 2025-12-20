@@ -1,0 +1,28 @@
+{
+  "id": "module-03/training-vision-models",
+  "title": "05. Training Vision Models for Robots",
+  "description": "Isaac Sim generates photorealistic images, depth maps, and masks that enable supervised learning for detection and segmentation.",
+  "source": "@site/docs/module-03/05-training-vision-models.md",
+  "sourceDirName": "module-03",
+  "slug": "/module-03/training-vision-models",
+  "permalink": "/ur/docs/module-03/training-vision-models",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/05-training-vision-models.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "05. Training Vision Models for Robots",
+    "sidebar_label": "05 Vision Models"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "04 Synthetic Data",
+    "permalink": "/ur/docs/module-03/synthetic-data"
+  },
+  "next": {
+    "title": "06 Visual SLAM",
+    "permalink": "/ur/docs/module-03/visual-slam"
+  }
+}

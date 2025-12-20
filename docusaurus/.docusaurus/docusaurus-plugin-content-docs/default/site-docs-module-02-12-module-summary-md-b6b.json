@@ -1,0 +1,28 @@
+{
+  "id": "module-02/module-summary",
+  "title": "12. Module 02 — Final Summary",
+  "description": "Digital twins allow humanoid robots to learn, plan, and interact safely in virtual environments.",
+  "source": "@site/docs/module-02/12-module-summary.md",
+  "sourceDirName": "module-02",
+  "slug": "/module-02/module-summary",
+  "permalink": "/ur/docs/module-02/module-summary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/12-module-summary.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "title": "12. Module 02 — Final Summary",
+    "sidebar_label": "Module 02 Summary"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "11 Simulation-to-Real",
+    "permalink": "/ur/docs/module-02/transfer-strategies"
+  },
+  "next": {
+    "title": "01 Accelerated Computing",
+    "permalink": "/ur/docs/module-03/accelerated-computing"
+  }
+}

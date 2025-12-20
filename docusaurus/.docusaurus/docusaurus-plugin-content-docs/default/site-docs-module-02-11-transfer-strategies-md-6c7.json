@@ -1,0 +1,28 @@
+{
+  "id": "module-02/transfer-strategies",
+  "title": "11. Simulation-to-Real Transfer Strategies",
+  "description": "Deploy AI models from simulation to real humanoids with progressive testing, fine-tuning, and safety validation.",
+  "source": "@site/docs/module-02/11-transfer-strategies.md",
+  "sourceDirName": "module-02",
+  "slug": "/module-02/transfer-strategies",
+  "permalink": "/ur/docs/module-02/transfer-strategies",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/11-transfer-strategies.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "title": "11. Simulation-to-Real Transfer Strategies",
+    "sidebar_label": "11 Simulation-to-Real"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "10 Domain Randomization",
+    "permalink": "/ur/docs/module-02/domain-randomization"
+  },
+  "next": {
+    "title": "Module 02 Summary",
+    "permalink": "/ur/docs/module-02/module-summary"
+  }
+}

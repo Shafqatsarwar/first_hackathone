@@ -1,0 +1,28 @@
+{
+  "id": "module-04/vla-intro",
+  "title": "01. VLA Overview",
+  "description": "Vision-Language-Action ties visual perception, natural language understanding, and actionable robot behavior to create intuitive humanoid interaction.",
+  "source": "@site/docs/module-04/01-vla-intro.md",
+  "sourceDirName": "module-04",
+  "slug": "/module-04/vla-intro",
+  "permalink": "/ur/docs/module-04/vla-intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/01-vla-intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "01. VLA Overview",
+    "sidebar_label": "01 VLA Overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 03 Summary",
+    "permalink": "/ur/docs/module-03/module-summary"
+  },
+  "next": {
+    "title": "02 LLMs",
+    "permalink": "/ur/docs/module-04/llms-in-vla"
+  }
+}

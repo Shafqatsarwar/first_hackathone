@@ -1,0 +1,28 @@
+{
+  "id": "module-02/physics-simulation",
+  "title": "02. Physics Simulation Fundamentals",
+  "description": "Accurate physics simulation models gravity, collisions, contact dynamics, and joint constraints so control strategies behave reliably before hitting hardware.",
+  "source": "@site/docs/module-02/02-physics-simulation.md",
+  "sourceDirName": "module-02",
+  "slug": "/module-02/physics-simulation",
+  "permalink": "/ur/docs/module-02/physics-simulation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/02-physics-simulation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "02. Physics Simulation Fundamentals",
+    "sidebar_label": "02 Physics Simulation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "01 Digital Twins",
+    "permalink": "/ur/docs/module-02/digital-twins"
+  },
+  "next": {
+    "title": "03 Gazebo + ROS 2",
+    "permalink": "/ur/docs/module-02/gazebo-ros2"
+  }
+}

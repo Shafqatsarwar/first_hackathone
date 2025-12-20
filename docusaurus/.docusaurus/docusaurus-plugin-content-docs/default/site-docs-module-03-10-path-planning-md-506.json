@@ -1,0 +1,28 @@
+{
+  "id": "module-03/path-planning",
+  "title": "10. Path Planning Under Physical Constraints",
+  "description": "Humanoid robots require physics-aware planning to respect joint torque, balance, and collision avoidance.",
+  "source": "@site/docs/module-03/10-path-planning.md",
+  "sourceDirName": "module-03",
+  "slug": "/module-03/path-planning",
+  "permalink": "/ur/docs/module-03/path-planning",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/10-path-planning.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "title": "10. Path Planning Under Physical Constraints",
+    "sidebar_label": "10 Path Planning"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "09 Nav2 Navigation",
+    "permalink": "/ur/docs/module-03/nav2"
+  },
+  "next": {
+    "title": "11 Autonomy Stack",
+    "permalink": "/ur/docs/module-03/autonomy-stack"
+  }
+}

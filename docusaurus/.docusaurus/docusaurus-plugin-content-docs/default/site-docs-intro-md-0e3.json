@@ -1,11 +1,11 @@
 {
   "id": "intro",
-  "title": "Introduction to Physical AI & Humanoid Robotics",
-  "description": "Welcome to the Future of AI",
+  "title": "Physical AI Textbook Landing",
+  "description": "Welcome to the Physical AI Textbook, your guide to embodied intelligence and humanoid robotics.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/docs/intro",
+  "permalink": "/ur/docs/intro",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
@@ -13,11 +13,12 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1
+    "sidebar_position": 1,
+    "title": "Physical AI Textbook Landing"
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Book Overview — Physical AI & Humanoid Robotics",
-    "permalink": "/docs/book-overview"
+    "title": "Book Overview",
+    "permalink": "/ur/docs/book-overview"
   }
 }

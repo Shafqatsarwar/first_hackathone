@@ -1,0 +1,28 @@
+{
+  "id": "module-02/sensor-modeling",
+  "title": "06. Sensor Modeling: Cameras, LiDAR, IMU",
+  "description": "Robotics sensors include RGB/depth cameras, LiDAR, and IMUs. Simulation adds realistic noise and latency to bridge the reality gap.",
+  "source": "@site/docs/module-02/06-sensor-modeling.md",
+  "sourceDirName": "module-02",
+  "slug": "/module-02/sensor-modeling",
+  "permalink": "/ur/docs/module-02/sensor-modeling",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/06-sensor-modeling.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "06. Sensor Modeling: Cameras, LiDAR, IMU",
+    "sidebar_label": "06 Sensor Modeling"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "05 Humanoid Locomotion",
+    "permalink": "/ur/docs/module-02/humanoid-locomotion"
+  },
+  "next": {
+    "title": "07 Noise & Latency",
+    "permalink": "/ur/docs/module-02/noise-latency"
+  }
+}

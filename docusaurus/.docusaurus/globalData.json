@@ -1,63 +1,256 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/ur/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/ur/docs",
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "archived/README",
-              "path": "/docs/archived/"
-            },
-            {
-              "id": "book-chapter",
-              "path": "/docs/book-chapter"
-            },
-            {
               "id": "book-overview",
-              "path": "/docs/book-overview",
+              "path": "/ur/docs/book-overview",
               "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "chapter1",
-              "path": "/docs/chapter1"
-            },
-            {
-              "id": "chapter2",
-              "path": "/docs/chapter2"
-            },
-            {
-              "id": "chapter3",
-              "path": "/docs/chapter3"
             },
             {
               "id": "intro",
-              "path": "/docs/intro",
+              "path": "/ur/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "module1_ros/content",
-              "path": "/docs/module1_ros/content"
+              "id": "module-01/actuators-feedback",
+              "path": "/ur/docs/module-01/actuators-feedback",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "module2_simulation/content",
-              "path": "/docs/module2_simulation/content"
+              "id": "module-01/launch-composition",
+              "path": "/ur/docs/module-01/launch-composition",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "module3_nvidia_isaac/content",
-              "path": "/docs/module3_nvidia_isaac/content"
+              "id": "module-01/llm-to-control",
+              "path": "/ur/docs/module-01/llm-to-control",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-01/nodes-cognitive-units",
+              "path": "/ur/docs/module-01/nodes-cognitive-units",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-01/parameters-runtime",
+              "path": "/ur/docs/module-01/parameters-runtime",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-01/physical-ai-nervous-system",
+              "path": "/ur/docs/module-01/physical-ai-nervous-system",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-01/python-agents-rclpy",
+              "path": "/ur/docs/module-01/python-agents-rclpy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-01/ros2-dds-philosophy",
+              "path": "/ur/docs/module-01/ros2-dds-philosophy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-01/topics-services-actions",
+              "path": "/ur/docs/module-01/topics-services-actions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-01/urdf-humanoid-body",
+              "path": "/ur/docs/module-01/urdf-humanoid-body",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-02/digital-twins",
+              "path": "/ur/docs/module-02/digital-twins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-02/domain-randomization",
+              "path": "/ur/docs/module-02/domain-randomization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-02/gazebo-ros2",
+              "path": "/ur/docs/module-02/gazebo-ros2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-02/gravity-collisions",
+              "path": "/ur/docs/module-02/gravity-collisions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-02/humanoid-locomotion",
+              "path": "/ur/docs/module-02/humanoid-locomotion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-02/module-summary",
+              "path": "/ur/docs/module-02/module-summary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-02/noise-latency",
+              "path": "/ur/docs/module-02/noise-latency",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-02/photorealism",
+              "path": "/ur/docs/module-02/photorealism",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-02/physics-simulation",
+              "path": "/ur/docs/module-02/physics-simulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-02/sensor-modeling",
+              "path": "/ur/docs/module-02/sensor-modeling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-02/transfer-strategies",
+              "path": "/ur/docs/module-02/transfer-strategies",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-02/unity-interaction",
+              "path": "/ur/docs/module-02/unity-interaction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-03/accelerated-computing",
+              "path": "/ur/docs/module-03/accelerated-computing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-03/autonomy-stack",
+              "path": "/ur/docs/module-03/autonomy-stack",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-03/gpu-physics-perception",
+              "path": "/ur/docs/module-03/gpu-physics-perception",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-03/isaac-ros-hw",
+              "path": "/ur/docs/module-03/isaac-ros-hw",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-03/isaac-sim-architecture",
+              "path": "/ur/docs/module-03/isaac-sim-architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-03/localization-mapping",
+              "path": "/ur/docs/module-03/localization-mapping",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-03/module-summary",
+              "path": "/ur/docs/module-03/module-summary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-03/nav2",
+              "path": "/ur/docs/module-03/nav2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-03/path-planning",
+              "path": "/ur/docs/module-03/path-planning",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-03/synthetic-data",
+              "path": "/ur/docs/module-03/synthetic-data",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-03/training-vision-models",
+              "path": "/ur/docs/module-03/training-vision-models",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-03/visual-slam",
+              "path": "/ur/docs/module-03/visual-slam",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-04/action-planning",
+              "path": "/ur/docs/module-04/action-planning",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-04/dialog-management",
+              "path": "/ur/docs/module-04/dialog-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-04/feedback-loop",
+              "path": "/ur/docs/module-04/feedback-loop",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-04/llms-in-vla",
+              "path": "/ur/docs/module-04/llms-in-vla",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-04/module-summary",
+              "path": "/ur/docs/module-04/module-summary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-04/multimodal-fusion",
+              "path": "/ur/docs/module-04/multimodal-fusion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-04/personalization",
+              "path": "/ur/docs/module-04/personalization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-04/safety",
+              "path": "/ur/docs/module-04/safety",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-04/speech-and-voice",
+              "path": "/ur/docs/module-04/speech-and-voice",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-04/vision-perception",
+              "path": "/ur/docs/module-04/vision-perception",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-04/vla-intro",
+              "path": "/ur/docs/module-04/vla-intro",
+              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
+                "path": "/ur/docs/intro",
                 "label": "intro"
               }
             }
@@ -67,27 +260,72 @@
       "breadcrumbs": true
     },
     "chatbot": {
-      "path": "/chatbot",
+      "path": "/ur/chatbot",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/chatbot",
-          "mainDocId": "docs/intro",
+          "path": "/ur/chatbot",
+          "mainDocId": "intro",
           "docs": [
             {
-              "id": "docs/intro",
-              "path": "/chatbot/docs/intro",
-              "sidebar": "defaultSidebar"
+              "id": "archived/README",
+              "path": "/ur/chatbot/archived/"
+            },
+            {
+              "id": "book-chapter",
+              "path": "/ur/chatbot/book-chapter",
+              "sidebar": "chatbotSidebar"
+            },
+            {
+              "id": "book-overview",
+              "path": "/ur/chatbot/book-overview"
+            },
+            {
+              "id": "chapter1",
+              "path": "/ur/chatbot/chapter1"
+            },
+            {
+              "id": "chapter2",
+              "path": "/ur/chatbot/chapter2"
+            },
+            {
+              "id": "chapter3",
+              "path": "/ur/chatbot/chapter3"
+            },
+            {
+              "id": "intro",
+              "path": "/ur/chatbot/",
+              "sidebar": "chatbotSidebar"
+            },
+            {
+              "id": "module1_ros/content",
+              "path": "/ur/chatbot/module1_ros/content",
+              "sidebar": "chatbotSidebar"
+            },
+            {
+              "id": "module2_simulation/content",
+              "path": "/ur/chatbot/module2_simulation/content",
+              "sidebar": "chatbotSidebar"
+            },
+            {
+              "id": "module3_nvidia_isaac/content",
+              "path": "/ur/chatbot/module3_nvidia_isaac/content",
+              "sidebar": "chatbotSidebar"
+            },
+            {
+              "id": "module4_vla/content",
+              "path": "/ur/chatbot/module4_vla/content",
+              "sidebar": "chatbotSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "defaultSidebar": {
+            "chatbotSidebar": {
               "link": {
-                "path": "/chatbot/docs/intro",
-                "label": "docs/intro"
+                "path": "/ur/chatbot/",
+                "label": "intro"
               }
             }
           }

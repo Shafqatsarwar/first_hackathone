@@ -1,0 +1,28 @@
+{
+  "id": "module-01/actuators-feedback",
+  "title": "10. Actuators, Sensors, and Feedback Loops",
+  "description": "This chapter explains how sensors, actuators, and closed-loop feedback keep the humanoid's nervous system stable.",
+  "source": "@site/docs/module-01/10-actuators-feedback.md",
+  "sourceDirName": "module-01",
+  "slug": "/module-01/actuators-feedback",
+  "permalink": "/ur/docs/module-01/actuators-feedback",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-01/10-actuators-feedback.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "title": "10. Actuators, Sensors, and Feedback Loops",
+    "sidebar_label": "10 Actuators & Feedback"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "09 URDF & Body",
+    "permalink": "/ur/docs/module-01/urdf-humanoid-body"
+  },
+  "next": {
+    "title": "11 Launch & Composition",
+    "permalink": "/ur/docs/module-01/launch-composition"
+  }
+}

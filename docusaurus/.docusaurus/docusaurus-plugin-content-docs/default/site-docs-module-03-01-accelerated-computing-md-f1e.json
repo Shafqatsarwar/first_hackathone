@@ -1,0 +1,28 @@
+{
+  "id": "module-03/accelerated-computing",
+  "title": "01. Accelerated Computing in Physical AI",
+  "description": "GPUs accelerate physics, sensor rendering, and deep learning inference so humanoid robots can perceive and plan fast enough to stay upright and responsive.",
+  "source": "@site/docs/module-03/01-accelerated-computing.md",
+  "sourceDirName": "module-03",
+  "slug": "/module-03/accelerated-computing",
+  "permalink": "/ur/docs/module-03/accelerated-computing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/01-accelerated-computing.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "01. Accelerated Computing in Physical AI",
+    "sidebar_label": "01 Accelerated Computing"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 02 Summary",
+    "permalink": "/ur/docs/module-02/module-summary"
+  },
+  "next": {
+    "title": "02 Isaac Sim Architecture",
+    "permalink": "/ur/docs/module-03/isaac-sim-architecture"
+  }
+}

@@ -1,0 +1,52 @@
+.home {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.card {
+  max-width: 720px;
+  padding: 3rem;
+  border-radius: var(--ifm-global-radius-xl);
+  background: var(--ifm-card-background-color);
+  box-shadow: var(--ifm-box-shadow-global);
+  border: 1px solid var(--ifm-color-border-muted);
+}
+
+.actions {
+  margin-top: 1.8rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.primary,
+.secondary {
+  padding: 0.65rem 1.5rem;
+  border-radius: var(--ifm-global-radius-md);
+  font-weight: 600;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+  text-decoration: none;
+}
+
+.primary {
+  background: var(--ifm-color-primary);
+  color: var(--ifm-color-white);
+  border: 1px solid var(--ifm-color-primary);
+}
+
+.secondary {
+  background: transparent;
+  color: var(--ifm-color-primary);
+  border: 1px solid var(--ifm-color-primary);
+}
+
+.primary:hover,
+.secondary:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--ifm-box-shadow-small);
+}

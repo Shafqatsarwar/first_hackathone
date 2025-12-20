@@ -28,7 +28,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ur'],  // English and Urdu for the hackathon requirements
+    locales: ['en', 'ur'], // English and Urdu for the hackathon requirements
   },
 
   presets: [
@@ -122,15 +122,16 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
-  
+
   plugins: [
     // Plugin for the RAG chatbot integration
     [
       '@docusaurus/plugin-content-docs',
       {
         id: 'chatbot',
-        path: 'chatbot',
+        path: 'chatbot/docs',
         routeBasePath: 'chatbot',
+        sidebarPath: require.resolve('./chatbot/sidebars.js'),
       },
     ],
     // For personalization features

@@ -1,0 +1,28 @@
+{
+  "id": "module-01/urdf-humanoid-body",
+  "title": "09. URDF and the Humanoid Body",
+  "description": "URDF defines links, joints, mass, inertia, and collision geometry, grounding AI in the robot's physical reality.",
+  "source": "@site/docs/module-01/09-urdf-humanoid-body.md",
+  "sourceDirName": "module-01",
+  "slug": "/module-01/urdf-humanoid-body",
+  "permalink": "/ur/docs/module-01/urdf-humanoid-body",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-01/09-urdf-humanoid-body.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "title": "09. URDF and the Humanoid Body",
+    "sidebar_label": "09 URDF & Body"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "08 Parameters & Runtime",
+    "permalink": "/ur/docs/module-01/parameters-runtime"
+  },
+  "next": {
+    "title": "10 Actuators & Feedback",
+    "permalink": "/ur/docs/module-01/actuators-feedback"
+  }
+}

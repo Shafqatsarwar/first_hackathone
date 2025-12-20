@@ -1,0 +1,28 @@
+{
+  "id": "module-04/feedback-loop",
+  "title": "08. Feedback Loops and Adaptation",
+  "description": "Continuous feedback from sensors and users lets VLA systems adapt behavior over time.",
+  "source": "@site/docs/module-04/08-feedback-loop.md",
+  "sourceDirName": "module-04",
+  "slug": "/module-04/feedback-loop",
+  "permalink": "/ur/docs/module-04/feedback-loop",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/08-feedback-loop.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "08. Feedback Loops and Adaptation",
+    "sidebar_label": "08 Feedback Loops"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "07 Dialog Management",
+    "permalink": "/ur/docs/module-04/dialog-management"
+  },
+  "next": {
+    "title": "09 Safety",
+    "permalink": "/ur/docs/module-04/safety"
+  }
+}

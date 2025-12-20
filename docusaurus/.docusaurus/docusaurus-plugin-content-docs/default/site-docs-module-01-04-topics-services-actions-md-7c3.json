@@ -1,0 +1,28 @@
+{
+  "id": "module-01/topics-services-actions",
+  "title": "04. Topics, Services, and Actions",
+  "description": "This chapter enumerates the communication primitives that ROS 2 exposes: topics for broadcast telemetry, services for synchronous control, and actions for cancellable behaviors.",
+  "source": "@site/docs/module-01/04-topics-services-actions.md",
+  "sourceDirName": "module-01",
+  "slug": "/module-01/topics-services-actions",
+  "permalink": "/ur/docs/module-01/topics-services-actions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-01/04-topics-services-actions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "04. Topics, Services, and Actions",
+    "sidebar_label": "04 Topics, Services, Actions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "03 Nodes as Cognitive Units",
+    "permalink": "/ur/docs/module-01/nodes-cognitive-units"
+  },
+  "next": {
+    "title": "06 Python Agents (rclpy)",
+    "permalink": "/ur/docs/module-01/python-agents-rclpy"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "module-03/module-summary",
+  "title": "Module 03 — Final Summary",
+  "description": "Isaac Sim provides a GPU-powered brain for humanoids. Synthetic data, Visual SLAM, Nav2, and physics-aware planning let AI-brain deployments stay safe, scalable, and ready for the real world.",
+  "source": "@site/docs/module-03/12-module-summary.md",
+  "sourceDirName": "module-03",
+  "slug": "/module-03/module-summary",
+  "permalink": "/ur/docs/module-03/module-summary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/12-module-summary.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "title": "Module 03 — Final Summary",
+    "sidebar_label": "Module 03 Summary"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "11 Autonomy Stack",
+    "permalink": "/ur/docs/module-03/autonomy-stack"
+  },
+  "next": {
+    "title": "01 VLA Overview",
+    "permalink": "/ur/docs/module-04/vla-intro"
+  }
+}

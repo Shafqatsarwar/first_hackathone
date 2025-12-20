@@ -1,0 +1,23 @@
+{
+  "id": "module1_ros/content",
+  "title": "Module 1: The Robotic Nervous System (ROS 2)",
+  "description": "Overview",
+  "source": "@site/chatbot/docs/module1_ros/content.md",
+  "sourceDirName": "module1_ros",
+  "slug": "/module1_ros/content",
+  "permalink": "/ur/chatbot/module1_ros/content",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "chatbotSidebar",
+  "previous": {
+    "title": "Demo Chapter — Project Requirements Summary",
+    "permalink": "/ur/chatbot/book-chapter"
+  },
+  "next": {
+    "title": "Module 2: The Digital Twin (Gazebo & Unity)",
+    "permalink": "/ur/chatbot/module2_simulation/content"
+  }
+}

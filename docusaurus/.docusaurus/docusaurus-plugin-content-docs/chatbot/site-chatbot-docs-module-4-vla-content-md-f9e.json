@@ -1,0 +1,19 @@
+{
+  "id": "module4_vla/content",
+  "title": "Module 4: Vision-Language-Action (VLA)",
+  "description": "Overview",
+  "source": "@site/chatbot/docs/module4_vla/content.md",
+  "sourceDirName": "module4_vla",
+  "slug": "/module4_vla/content",
+  "permalink": "/ur/chatbot/module4_vla/content",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "chatbotSidebar",
+  "previous": {
+    "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac™)",
+    "permalink": "/ur/chatbot/module3_nvidia_isaac/content"
+  }
+}

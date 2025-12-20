@@ -1,0 +1,28 @@
+{
+  "id": "module-03/isaac-sim-architecture",
+  "title": "02. NVIDIA Isaac Sim Architecture",
+  "description": "Isaac Sim provides photorealistic rendering, GPU-accelerated physics, and tight ROS 2 integration so AI brains can be built and validated on high-fidelity simulations.",
+  "source": "@site/docs/module-03/02-isaac-sim-architecture.md",
+  "sourceDirName": "module-03",
+  "slug": "/module-03/isaac-sim-architecture",
+  "permalink": "/ur/docs/module-03/isaac-sim-architecture",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/02-isaac-sim-architecture.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "02. NVIDIA Isaac Sim Architecture",
+    "sidebar_label": "02 Isaac Sim Architecture"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "01 Accelerated Computing",
+    "permalink": "/ur/docs/module-03/accelerated-computing"
+  },
+  "next": {
+    "title": "03 GPU Physics & Perception",
+    "permalink": "/ur/docs/module-03/gpu-physics-perception"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "module-04/safety",
+  "title": "09. Safety and Alignment",
+  "description": "Safety reviews ensure instructions do not violate robot or human integrity, especially when chaining complex commands.",
+  "source": "@site/docs/module-04/09-safety.md",
+  "sourceDirName": "module-04",
+  "slug": "/module-04/safety",
+  "permalink": "/ur/docs/module-04/safety",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/09-safety.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "title": "09. Safety and Alignment",
+    "sidebar_label": "09 Safety"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "08 Feedback Loops",
+    "permalink": "/ur/docs/module-04/feedback-loop"
+  },
+  "next": {
+    "title": "10 Personalization",
+    "permalink": "/ur/docs/module-04/personalization"
+  }
+}

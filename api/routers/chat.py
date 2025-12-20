@@ -2,10 +2,11 @@
 Chat router for the Physical AI & Humanoid Robotics textbook
 Handles RAG chatbot functionality
 """
-from fastapi import APIRouter, HTTPException, Depends
+from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from typing import Optional
+from typing import Optional, List, Dict
 import os
+from pathlib import Path
 from dotenv import load_dotenv
 import openai
 
@@ -23,6 +24,25 @@ class ChatRequest(BaseModel):
 class ChatResponse(BaseModel):
     response: str
     sources: Optional[list] = []
+    book_placeholder: Optional[str] = None
+
+class ModuleInfo(BaseModel):
+    id: str
+    title: str
+    description: Optional[str] = None
+    path: str
+
+
+def _load_book_placeholder() -> Optional[str]:
+    """Return a short snippet of the exported book text for mock/demo use."""
+    root = Path(__file__).resolve().parents[1]
+    book_path = root.parent / "book.txt"
+    if not book_path.exists():
+        return None
+    text = book_path.read_text(encoding="utf-8").strip()
+    if not text:
+        return None
+    return text[:800]  # first 800 chars as placeholder
 
 @router.post("/query", response_model=ChatResponse)
 async def chat_query(request: ChatRequest):
@@ -31,7 +51,13 @@ async def chat_query(request: ChatRequest):
     """
     # Safe testing mode to avoid external API/token usage
     if os.getenv("MOCK_MODE", "false").lower() in ("1", "true", "yes"):
-        return ChatResponse(response=f"(mock) Received: {request.message}", sources=[])
+        placeholder = _load_book_placeholder()
+        mock_message = f"(mock) Received: {request.message}"
+        sources = []
+        if placeholder:
+            mock_message += " (includes textbook placeholder content)"
+            sources.append({"source": "book.txt", "snippet": placeholder[:200]})
+        return ChatResponse(response=mock_message, sources=sources)
     try:
         # Lazy-import optional RAG dependencies (allows health checks without full stack)
         try:

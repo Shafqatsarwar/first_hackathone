@@ -1,0 +1,28 @@
+{
+  "id": "module-04/personalization",
+  "title": "10. Personalization and Context",
+  "description": "Tailor VLA responses based on user background, role, preferences, and the robot's current mission.",
+  "source": "@site/docs/module-04/10-personalization.md",
+  "sourceDirName": "module-04",
+  "slug": "/module-04/personalization",
+  "permalink": "/ur/docs/module-04/personalization",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/10-personalization.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "title": "10. Personalization and Context",
+    "sidebar_label": "10 Personalization"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "09 Safety",
+    "permalink": "/ur/docs/module-04/safety"
+  },
+  "next": {
+    "title": "Module 04 Summary",
+    "permalink": "/ur/docs/module-04/module-summary"
+  }
+}

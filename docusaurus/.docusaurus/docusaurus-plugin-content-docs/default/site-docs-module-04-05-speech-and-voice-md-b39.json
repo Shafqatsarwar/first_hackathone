@@ -1,0 +1,28 @@
+{
+  "id": "module-04/speech-and-voice",
+  "title": "05. Speech and Voice Perception",
+  "description": "Speech recognition translates spoken commands into textual intent for the language-action pipeline.",
+  "source": "@site/docs/module-04/05-speech-and-voice.md",
+  "sourceDirName": "module-04",
+  "slug": "/module-04/speech-and-voice",
+  "permalink": "/ur/docs/module-04/speech-and-voice",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/05-speech-and-voice.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "05. Speech and Voice Perception",
+    "sidebar_label": "05 Speech & Voice"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "04 Multimodal Fusion",
+    "permalink": "/ur/docs/module-04/multimodal-fusion"
+  },
+  "next": {
+    "title": "06 Action Planning",
+    "permalink": "/ur/docs/module-04/action-planning"
+  }
+}

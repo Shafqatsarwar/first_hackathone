@@ -1,0 +1,28 @@
+{
+  "id": "module-03/autonomy-stack",
+  "title": "11. End-to-End Autonomy Stack",
+  "description": "Isaac Sim enables end-to-end testing of sensors, SLAM, planning, and control so the AI brain can be validated before deployment.",
+  "source": "@site/docs/module-03/11-autonomy-stack.md",
+  "sourceDirName": "module-03",
+  "slug": "/module-03/autonomy-stack",
+  "permalink": "/ur/docs/module-03/autonomy-stack",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/11-autonomy-stack.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "title": "11. End-to-End Autonomy Stack",
+    "sidebar_label": "11 Autonomy Stack"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "10 Path Planning",
+    "permalink": "/ur/docs/module-03/path-planning"
+  },
+  "next": {
+    "title": "Module 03 Summary",
+    "permalink": "/ur/docs/module-03/module-summary"
+  }
+}

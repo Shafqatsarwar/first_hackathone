@@ -1,0 +1,28 @@
+{
+  "id": "module-04/multimodal-fusion",
+  "title": "04. Multimodal Fusion",
+  "description": "Fusing vision and language embeddings allows the robot to ground instructions into perceived objects.",
+  "source": "@site/docs/module-04/04-multimodal-fusion.md",
+  "sourceDirName": "module-04",
+  "slug": "/module-04/multimodal-fusion",
+  "permalink": "/ur/docs/module-04/multimodal-fusion",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/04-multimodal-fusion.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "04. Multimodal Fusion",
+    "sidebar_label": "04 Multimodal Fusion"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "03 Vision Perception",
+    "permalink": "/ur/docs/module-04/vision-perception"
+  },
+  "next": {
+    "title": "05 Speech & Voice",
+    "permalink": "/ur/docs/module-04/speech-and-voice"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "chapter2",
+  "title": "Doc Two (Migrated)",
+  "description": "Content for doc2. Replace with real chapter content as needed.",
+  "source": "@site/chatbot/docs/chapter2.md",
+  "sourceDirName": ".",
+  "slug": "/chapter2",
+  "permalink": "/ur/chatbot/chapter2",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Doc Two (Migrated)"
+  }
+}

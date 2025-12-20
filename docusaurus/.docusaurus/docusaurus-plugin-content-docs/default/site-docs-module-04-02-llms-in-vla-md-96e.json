@@ -1,0 +1,28 @@
+{
+  "id": "module-04/llms-in-vla",
+  "title": "02. Large Language Models for Robotics",
+  "description": "LLMs provide flexible instruction understanding, enabling natural queries, dialog management, and plan generation for robots.",
+  "source": "@site/docs/module-04/02-llms-in-vla.md",
+  "sourceDirName": "module-04",
+  "slug": "/module-04/llms-in-vla",
+  "permalink": "/ur/docs/module-04/llms-in-vla",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/02-llms-in-vla.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "02. Large Language Models for Robotics",
+    "sidebar_label": "02 LLMs"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "01 VLA Overview",
+    "permalink": "/ur/docs/module-04/vla-intro"
+  },
+  "next": {
+    "title": "03 Vision Perception",
+    "permalink": "/ur/docs/module-04/vision-perception"
+  }
+}

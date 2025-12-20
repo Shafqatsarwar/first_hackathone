@@ -1,0 +1,28 @@
+{
+  "id": "module-01/parameters-runtime",
+  "title": "08. Parameters and Runtime Adaptation",
+  "description": "ROS parameters allow runtime tuning without redeployment, enabling personalization and adaptive behavior.",
+  "source": "@site/docs/module-01/08-parameters-runtime.md",
+  "sourceDirName": "module-01",
+  "slug": "/module-01/parameters-runtime",
+  "permalink": "/ur/docs/module-01/parameters-runtime",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-01/08-parameters-runtime.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "08. Parameters and Runtime Adaptation",
+    "sidebar_label": "08 Parameters & Runtime"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "07 LLMs & Control",
+    "permalink": "/ur/docs/module-01/llm-to-control"
+  },
+  "next": {
+    "title": "09 URDF & Body",
+    "permalink": "/ur/docs/module-01/urdf-humanoid-body"
+  }
+}

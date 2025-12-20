@@ -1,0 +1,28 @@
+{
+  "id": "module-02/gravity-collisions",
+  "title": "04. Gravity, Collisions, and Contact Dynamics",
+  "description": "Collision detection and response plus gravity modeling are essential for humanoid locomotion and manipulation. Without them balance and impact handling fail.",
+  "source": "@site/docs/module-02/04-gravity-collisions.md",
+  "sourceDirName": "module-02",
+  "slug": "/module-02/gravity-collisions",
+  "permalink": "/ur/docs/module-02/gravity-collisions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/04-gravity-collisions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "04. Gravity, Collisions, and Contact Dynamics",
+    "sidebar_label": "04 Gravity & Collisions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "03 Gazebo + ROS 2",
+    "permalink": "/ur/docs/module-02/gazebo-ros2"
+  },
+  "next": {
+    "title": "05 Humanoid Locomotion",
+    "permalink": "/ur/docs/module-02/humanoid-locomotion"
+  }
+}

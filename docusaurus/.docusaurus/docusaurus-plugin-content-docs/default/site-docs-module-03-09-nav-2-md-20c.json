@@ -1,0 +1,28 @@
+{
+  "id": "module-03/nav2",
+  "title": "09. Navigation with Nav2 for Humanoids",
+  "description": "Nav2 handles costmaps, path planning, obstacle avoidance, and footstep planning tailored to bipedal robots.",
+  "source": "@site/docs/module-03/09-nav2.md",
+  "sourceDirName": "module-03",
+  "slug": "/module-03/nav2",
+  "permalink": "/ur/docs/module-03/nav2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/09-nav2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "title": "09. Navigation with Nav2 for Humanoids",
+    "sidebar_label": "09 Nav2 Navigation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "08 Localization & Mapping",
+    "permalink": "/ur/docs/module-03/localization-mapping"
+  },
+  "next": {
+    "title": "10 Path Planning",
+    "permalink": "/ur/docs/module-03/path-planning"
+  }
+}

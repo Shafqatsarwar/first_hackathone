@@ -1,0 +1,28 @@
+{
+  "id": "module-02/photorealism",
+  "title": "09. Photorealism and Synthetic Vision Data",
+  "description": "Synthetic datasets provide perfect annotations—segmentation masks, depth maps, and object labels—for perception model development.",
+  "source": "@site/docs/module-02/09-photorealism.md",
+  "sourceDirName": "module-02",
+  "slug": "/module-02/photorealism",
+  "permalink": "/ur/docs/module-02/photorealism",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/09-photorealism.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "title": "09. Photorealism and Synthetic Vision Data",
+    "sidebar_label": "09 Photorealism"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "08 Unity Interaction",
+    "permalink": "/ur/docs/module-02/unity-interaction"
+  },
+  "next": {
+    "title": "10 Domain Randomization",
+    "permalink": "/ur/docs/module-02/domain-randomization"
+  }
+}

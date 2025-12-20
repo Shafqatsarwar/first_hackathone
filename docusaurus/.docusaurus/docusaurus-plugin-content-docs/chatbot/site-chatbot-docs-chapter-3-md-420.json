@@ -1,0 +1,16 @@
+{
+  "id": "chapter3",
+  "title": "Doc Three (Migrated)",
+  "description": "Content for doc3. Use this as a placeholder chapter.",
+  "source": "@site/chatbot/docs/chapter3.md",
+  "sourceDirName": ".",
+  "slug": "/chapter3",
+  "permalink": "/ur/chatbot/chapter3",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Doc Three (Migrated)"
+  }
+}

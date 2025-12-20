@@ -1,0 +1,28 @@
+{
+  "id": "module-01/python-agents-rclpy",
+  "title": "06. Python AI Agents with rclpy",
+  "description": "Python accelerates AI development. The rclpy client library lets Python agents subscribe to topics, call services, and interact with actions while keeping ROS 2 semantics intact.",
+  "source": "@site/docs/module-01/06-python-agents-rclpy.md",
+  "sourceDirName": "module-01",
+  "slug": "/module-01/python-agents-rclpy",
+  "permalink": "/ur/docs/module-01/python-agents-rclpy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-01/06-python-agents-rclpy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "06. Python AI Agents with rclpy",
+    "sidebar_label": "06 Python Agents (rclpy)"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "04 Topics, Services, Actions",
+    "permalink": "/ur/docs/module-01/topics-services-actions"
+  },
+  "next": {
+    "title": "07 LLMs & Control",
+    "permalink": "/ur/docs/module-01/llm-to-control"
+  }
+}

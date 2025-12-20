@@ -1,0 +1,28 @@
+{
+  "id": "module-02/gazebo-ros2",
+  "title": "03. Gazebo Architecture and ROS 2 Integration",
+  "description": "Gazebo provides physics engine integration, sensor simulation, and real-time bridges to ROS 2 nodes to run multi-node systems end to end.",
+  "source": "@site/docs/module-02/03-gazebo-ros2.md",
+  "sourceDirName": "module-02",
+  "slug": "/module-02/gazebo-ros2",
+  "permalink": "/ur/docs/module-02/gazebo-ros2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/03-gazebo-ros2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "03. Gazebo Architecture and ROS 2 Integration",
+    "sidebar_label": "03 Gazebo + ROS 2"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "02 Physics Simulation",
+    "permalink": "/ur/docs/module-02/physics-simulation"
+  },
+  "next": {
+    "title": "04 Gravity & Collisions",
+    "permalink": "/ur/docs/module-02/gravity-collisions"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "module2_simulation/content",
+  "title": "Module 2: The Digital Twin (Gazebo & Unity)",
+  "description": "Overview",
+  "source": "@site/chatbot/docs/module2_simulation/content.md",
+  "sourceDirName": "module2_simulation",
+  "slug": "/module2_simulation/content",
+  "permalink": "/ur/chatbot/module2_simulation/content",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "chatbotSidebar",
+  "previous": {
+    "title": "Module 1: The Robotic Nervous System (ROS 2)",
+    "permalink": "/ur/chatbot/module1_ros/content"
+  },
+  "next": {
+    "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac™)",
+    "permalink": "/ur/chatbot/module3_nvidia_isaac/content"
+  }
+}
