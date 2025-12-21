@@ -347,7 +347,7 @@ export default {
         "id": "chatbot",
         "path": "chatbot/docs",
         "routeBasePath": "chatbot",
-        "sidebarPath": "D:\\Panaverse\\first_hackathone\\docusaurus\\chatbot\\sidebars.js"
+        "sidebarPath": "D:\\Panaverse\\project\\first_hackathone\\docusaurus\\chatbot\\sidebars.js"
       }
     ],
     [
