@@ -5,10 +5,10 @@
   "source": "@site/docs/module-03/07-isaac-ros-hw.md",
   "sourceDirName": "module-03",
   "slug": "/module-03/isaac-ros-hw",
-  "permalink": "/ur/docs/module-03/isaac-ros-hw",
+  "permalink": "/docs/module-03/isaac-ros-hw",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/07-isaac-ros-hw.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/07-isaac-ros-hw.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 7,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "06 Visual SLAM",
-    "permalink": "/ur/docs/module-03/visual-slam"
+    "permalink": "/docs/module-03/visual-slam"
   },
   "next": {
     "title": "08 Localization & Mapping",
-    "permalink": "/ur/docs/module-03/localization-mapping"
+    "permalink": "/docs/module-03/localization-mapping"
   }
 }

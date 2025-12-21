@@ -5,10 +5,10 @@
   "source": "@site/docs/module-01/03-nodes-cognitive-units.md",
   "sourceDirName": "module-01",
   "slug": "/module-01/nodes-cognitive-units",
-  "permalink": "/ur/docs/module-01/nodes-cognitive-units",
+  "permalink": "/docs/module-01/nodes-cognitive-units",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-01/03-nodes-cognitive-units.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-01/03-nodes-cognitive-units.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "02 ROS 2 & DDS Philosophy",
-    "permalink": "/ur/docs/module-01/ros2-dds-philosophy"
+    "permalink": "/docs/module-01/ros2-dds-philosophy"
   },
   "next": {
     "title": "04 Topics, Services, Actions",
-    "permalink": "/ur/docs/module-01/topics-services-actions"
+    "permalink": "/docs/module-01/topics-services-actions"
   }
 }

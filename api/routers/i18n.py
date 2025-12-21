@@ -39,6 +39,16 @@ async def translate_content(request: TranslateContentRequest):
     Translate textbook content to Urdu or other languages
     """
     try:
+        # In mock mode, avoid network calls and return an echo-style translation
+        if os.getenv("MOCK_MODE", "false").lower() in ("1", "true", "yes"):
+            translated = f"(mock-{request.target_lang}) {request.content}"
+            return TranslateContentResponse(
+                original_content=request.content,
+                translated_content=translated,
+                source_lang=request.source_lang,
+                target_lang=request.target_lang
+            )
+
         # Use Google Translate API if available, otherwise use deep_translator as fallback
         api_key = os.getenv("GOOGLE_TRANSLATE_API_KEY")
         

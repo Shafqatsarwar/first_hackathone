@@ -5,10 +5,10 @@
   "source": "@site/docs/module-01/10-actuators-feedback.md",
   "sourceDirName": "module-01",
   "slug": "/module-01/actuators-feedback",
-  "permalink": "/ur/docs/module-01/actuators-feedback",
+  "permalink": "/docs/module-01/actuators-feedback",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-01/10-actuators-feedback.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-01/10-actuators-feedback.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 10,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "09 URDF & Body",
-    "permalink": "/ur/docs/module-01/urdf-humanoid-body"
+    "permalink": "/docs/module-01/urdf-humanoid-body"
   },
   "next": {
     "title": "11 Launch & Composition",
-    "permalink": "/ur/docs/module-01/launch-composition"
+    "permalink": "/docs/module-01/launch-composition"
   }
 }

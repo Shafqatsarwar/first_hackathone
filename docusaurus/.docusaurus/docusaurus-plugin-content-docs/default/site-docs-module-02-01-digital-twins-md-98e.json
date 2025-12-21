@@ -5,10 +5,10 @@
   "source": "@site/docs/module-02/01-digital-twins.md",
   "sourceDirName": "module-02",
   "slug": "/module-02/digital-twins",
-  "permalink": "/ur/docs/module-02/digital-twins",
+  "permalink": "/docs/module-02/digital-twins",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/01-digital-twins.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/01-digital-twins.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "11 Launch & Composition",
-    "permalink": "/ur/docs/module-01/launch-composition"
+    "permalink": "/docs/module-01/launch-composition"
   },
   "next": {
     "title": "02 Physics Simulation",
-    "permalink": "/ur/docs/module-02/physics-simulation"
+    "permalink": "/docs/module-02/physics-simulation"
   }
 }

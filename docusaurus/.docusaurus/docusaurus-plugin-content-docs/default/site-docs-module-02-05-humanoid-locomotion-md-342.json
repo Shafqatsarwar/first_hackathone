@@ -5,10 +5,10 @@
   "source": "@site/docs/module-02/05-humanoid-locomotion.md",
   "sourceDirName": "module-02",
   "slug": "/module-02/humanoid-locomotion",
-  "permalink": "/ur/docs/module-02/humanoid-locomotion",
+  "permalink": "/docs/module-02/humanoid-locomotion",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/05-humanoid-locomotion.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/05-humanoid-locomotion.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 5,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "04 Gravity & Collisions",
-    "permalink": "/ur/docs/module-02/gravity-collisions"
+    "permalink": "/docs/module-02/gravity-collisions"
   },
   "next": {
     "title": "06 Sensor Modeling",
-    "permalink": "/ur/docs/module-02/sensor-modeling"
+    "permalink": "/docs/module-02/sensor-modeling"
   }
 }

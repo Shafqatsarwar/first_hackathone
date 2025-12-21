@@ -5,10 +5,10 @@
   "source": "@site/docs/module-01/02-ros2-dds-philosophy.md",
   "sourceDirName": "module-01",
   "slug": "/module-01/ros2-dds-philosophy",
-  "permalink": "/ur/docs/module-01/ros2-dds-philosophy",
+  "permalink": "/docs/module-01/ros2-dds-philosophy",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-01/02-ros2-dds-philosophy.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-01/02-ros2-dds-philosophy.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "01 Physical AI Nervous System",
-    "permalink": "/ur/docs/module-01/physical-ai-nervous-system"
+    "permalink": "/docs/module-01/physical-ai-nervous-system"
   },
   "next": {
     "title": "03 Nodes as Cognitive Units",
-    "permalink": "/ur/docs/module-01/nodes-cognitive-units"
+    "permalink": "/docs/module-01/nodes-cognitive-units"
   }
 }

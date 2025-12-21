@@ -5,10 +5,10 @@
   "source": "@site/docs/module-03/12-module-summary.md",
   "sourceDirName": "module-03",
   "slug": "/module-03/module-summary",
-  "permalink": "/ur/docs/module-03/module-summary",
+  "permalink": "/docs/module-03/module-summary",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/12-module-summary.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/12-module-summary.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 12,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "11 Autonomy Stack",
-    "permalink": "/ur/docs/module-03/autonomy-stack"
+    "permalink": "/docs/module-03/autonomy-stack"
   },
   "next": {
     "title": "01 VLA Overview",
-    "permalink": "/ur/docs/module-04/vla-intro"
+    "permalink": "/docs/module-04/vla-intro"
   }
 }

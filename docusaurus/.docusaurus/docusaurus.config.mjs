@@ -8,9 +8,9 @@ export default {
   "tagline": "Bridging the gap between the digital brain and the physical body",
   "favicon": "img/favicon.ico",
   "url": "https://your-panaversity-site.vercel.app",
-  "baseUrl": "/ur/",
-  "organizationName": "panaversity",
-  "projectName": "physical-ai-textbook",
+  "baseUrl": "/",
+  "organizationName": "Shafqatsarwar",
+  "projectName": "first_hackathone",
   "onBrokenLinks": "throw",
   "i18n": {
     "defaultLocale": "en",
@@ -18,8 +18,19 @@ export default {
       "en",
       "ur"
     ],
-    "path": "i18n",
-    "localeConfigs": {}
+    "localeConfigs": {
+      "en": {
+        "direction": "ltr",
+        "htmlLang": "en-US",
+        "label": "English"
+      },
+      "ur": {
+        "direction": "ltr",
+        "htmlLang": "ur",
+        "label": "اردو"
+      }
+    },
+    "path": "i18n"
   },
   "presets": [
     [
@@ -27,7 +38,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": false,
         "theme": {
@@ -58,7 +69,7 @@ export default {
           "dropdownItemsAfter": []
         },
         {
-          "href": "https://github.com/panaversity/physical-ai-textbook",
+          "href": "https://github.com/Shafqatsarwar/first_hackathone",
           "label": "GitHub",
           "position": "right"
         }
@@ -95,7 +106,7 @@ export default {
           "items": [
             {
               "label": "GitHub",
-              "href": "https://github.com/panaversity/physical-ai-textbook"
+              "href": "https://github.com/Shafqatsarwar/first_hackathone"
             }
           ]
         }
@@ -336,7 +347,7 @@ export default {
         "id": "chatbot",
         "path": "chatbot/docs",
         "routeBasePath": "chatbot",
-        "sidebarPath": "D:\\Panavers\\Speckit_GeminiCLI\\first_hackathone\\docusaurus\\chatbot\\sidebars.js"
+        "sidebarPath": "D:\\Panaverse\\first_hackathone\\docusaurus\\chatbot\\sidebars.js"
       }
     ],
     [

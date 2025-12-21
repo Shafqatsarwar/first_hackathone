@@ -3,75 +3,110 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/ur/chatbot',
-    component: ComponentCreator('/ur/chatbot', '357'),
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
+    exact: true
+  },
+  {
+    path: '/chatbot',
+    component: ComponentCreator('/chatbot', 'd49'),
     routes: [
       {
-        path: '/ur/chatbot',
-        component: ComponentCreator('/ur/chatbot', '3b1'),
+        path: '/chatbot',
+        component: ComponentCreator('/chatbot', '61c'),
         routes: [
           {
-            path: '/ur/chatbot',
-            component: ComponentCreator('/ur/chatbot', '601'),
+            path: '/chatbot',
+            component: ComponentCreator('/chatbot', 'e72'),
             routes: [
               {
-                path: '/ur/chatbot/',
-                component: ComponentCreator('/ur/chatbot/', '9c6'),
+                path: '/chatbot/',
+                component: ComponentCreator('/chatbot/', 'a2a'),
                 exact: true,
                 sidebar: "chatbotSidebar"
               },
               {
-                path: '/ur/chatbot/archived/',
-                component: ComponentCreator('/ur/chatbot/archived/', '448'),
+                path: '/chatbot/archived/',
+                component: ComponentCreator('/chatbot/archived/', '0b7'),
                 exact: true
               },
               {
-                path: '/ur/chatbot/book-chapter',
-                component: ComponentCreator('/ur/chatbot/book-chapter', '80f'),
+                path: '/chatbot/book-chapter',
+                component: ComponentCreator('/chatbot/book-chapter', 'bed'),
                 exact: true,
                 sidebar: "chatbotSidebar"
               },
               {
-                path: '/ur/chatbot/book-overview',
-                component: ComponentCreator('/ur/chatbot/book-overview', '6d3'),
+                path: '/chatbot/book-overview',
+                component: ComponentCreator('/chatbot/book-overview', 'ad6'),
                 exact: true
               },
               {
-                path: '/ur/chatbot/chapter1',
-                component: ComponentCreator('/ur/chatbot/chapter1', '521'),
+                path: '/chatbot/chapter1',
+                component: ComponentCreator('/chatbot/chapter1', '0dd'),
                 exact: true
               },
               {
-                path: '/ur/chatbot/chapter2',
-                component: ComponentCreator('/ur/chatbot/chapter2', '872'),
+                path: '/chatbot/chapter2',
+                component: ComponentCreator('/chatbot/chapter2', '25b'),
                 exact: true
               },
               {
-                path: '/ur/chatbot/chapter3',
-                component: ComponentCreator('/ur/chatbot/chapter3', '299'),
+                path: '/chatbot/chapter3',
+                component: ComponentCreator('/chatbot/chapter3', '736'),
                 exact: true
               },
               {
-                path: '/ur/chatbot/module1_ros/content',
-                component: ComponentCreator('/ur/chatbot/module1_ros/content', 'b5f'),
+                path: '/chatbot/module1_ros/content',
+                component: ComponentCreator('/chatbot/module1_ros/content', 'd00'),
                 exact: true,
                 sidebar: "chatbotSidebar"
               },
               {
-                path: '/ur/chatbot/module2_simulation/content',
-                component: ComponentCreator('/ur/chatbot/module2_simulation/content', '35c'),
+                path: '/chatbot/module2_simulation/content',
+                component: ComponentCreator('/chatbot/module2_simulation/content', '0cc'),
                 exact: true,
                 sidebar: "chatbotSidebar"
               },
               {
-                path: '/ur/chatbot/module3_nvidia_isaac/content',
-                component: ComponentCreator('/ur/chatbot/module3_nvidia_isaac/content', 'ab5'),
+                path: '/chatbot/module3_nvidia_isaac/content',
+                component: ComponentCreator('/chatbot/module3_nvidia_isaac/content', '313'),
                 exact: true,
                 sidebar: "chatbotSidebar"
               },
               {
-                path: '/ur/chatbot/module4_vla/content',
-                component: ComponentCreator('/ur/chatbot/module4_vla/content', 'e4c'),
+                path: '/chatbot/module4_vla/content',
+                component: ComponentCreator('/chatbot/module4_vla/content', '63c'),
                 exact: true,
                 sidebar: "chatbotSidebar"
               }
@@ -82,296 +117,296 @@ export default [
     ]
   },
   {
-    path: '/ur/docs',
-    component: ComponentCreator('/ur/docs', 'c89'),
+    path: '/docs',
+    component: ComponentCreator('/docs', 'fa4'),
     routes: [
       {
-        path: '/ur/docs',
-        component: ComponentCreator('/ur/docs', 'f65'),
+        path: '/docs',
+        component: ComponentCreator('/docs', '558'),
         routes: [
           {
-            path: '/ur/docs',
-            component: ComponentCreator('/ur/docs', '405'),
+            path: '/docs',
+            component: ComponentCreator('/docs', '0ef'),
             routes: [
               {
-                path: '/ur/docs/book-overview',
-                component: ComponentCreator('/ur/docs/book-overview', '984'),
+                path: '/docs/book-overview',
+                component: ComponentCreator('/docs/book-overview', '554'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/intro',
-                component: ComponentCreator('/ur/docs/intro', '793'),
+                path: '/docs/intro',
+                component: ComponentCreator('/docs/intro', '61d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-01/actuators-feedback',
-                component: ComponentCreator('/ur/docs/module-01/actuators-feedback', 'aa0'),
+                path: '/docs/module-01/actuators-feedback',
+                component: ComponentCreator('/docs/module-01/actuators-feedback', '4a5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-01/launch-composition',
-                component: ComponentCreator('/ur/docs/module-01/launch-composition', '0e6'),
+                path: '/docs/module-01/launch-composition',
+                component: ComponentCreator('/docs/module-01/launch-composition', 'b02'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-01/llm-to-control',
-                component: ComponentCreator('/ur/docs/module-01/llm-to-control', 'abc'),
+                path: '/docs/module-01/llm-to-control',
+                component: ComponentCreator('/docs/module-01/llm-to-control', '892'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-01/nodes-cognitive-units',
-                component: ComponentCreator('/ur/docs/module-01/nodes-cognitive-units', '8e6'),
+                path: '/docs/module-01/nodes-cognitive-units',
+                component: ComponentCreator('/docs/module-01/nodes-cognitive-units', '083'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-01/parameters-runtime',
-                component: ComponentCreator('/ur/docs/module-01/parameters-runtime', 'd0c'),
+                path: '/docs/module-01/parameters-runtime',
+                component: ComponentCreator('/docs/module-01/parameters-runtime', '1f8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-01/physical-ai-nervous-system',
-                component: ComponentCreator('/ur/docs/module-01/physical-ai-nervous-system', '237'),
+                path: '/docs/module-01/physical-ai-nervous-system',
+                component: ComponentCreator('/docs/module-01/physical-ai-nervous-system', 'd98'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-01/python-agents-rclpy',
-                component: ComponentCreator('/ur/docs/module-01/python-agents-rclpy', 'bd7'),
+                path: '/docs/module-01/python-agents-rclpy',
+                component: ComponentCreator('/docs/module-01/python-agents-rclpy', '777'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-01/ros2-dds-philosophy',
-                component: ComponentCreator('/ur/docs/module-01/ros2-dds-philosophy', 'ddc'),
+                path: '/docs/module-01/ros2-dds-philosophy',
+                component: ComponentCreator('/docs/module-01/ros2-dds-philosophy', '2e4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-01/topics-services-actions',
-                component: ComponentCreator('/ur/docs/module-01/topics-services-actions', '082'),
+                path: '/docs/module-01/topics-services-actions',
+                component: ComponentCreator('/docs/module-01/topics-services-actions', '4d5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-01/urdf-humanoid-body',
-                component: ComponentCreator('/ur/docs/module-01/urdf-humanoid-body', 'fdf'),
+                path: '/docs/module-01/urdf-humanoid-body',
+                component: ComponentCreator('/docs/module-01/urdf-humanoid-body', '26d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-02/digital-twins',
-                component: ComponentCreator('/ur/docs/module-02/digital-twins', '31c'),
+                path: '/docs/module-02/digital-twins',
+                component: ComponentCreator('/docs/module-02/digital-twins', '2fb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-02/domain-randomization',
-                component: ComponentCreator('/ur/docs/module-02/domain-randomization', 'e75'),
+                path: '/docs/module-02/domain-randomization',
+                component: ComponentCreator('/docs/module-02/domain-randomization', 'e02'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-02/gazebo-ros2',
-                component: ComponentCreator('/ur/docs/module-02/gazebo-ros2', '708'),
+                path: '/docs/module-02/gazebo-ros2',
+                component: ComponentCreator('/docs/module-02/gazebo-ros2', '7a7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-02/gravity-collisions',
-                component: ComponentCreator('/ur/docs/module-02/gravity-collisions', 'fab'),
+                path: '/docs/module-02/gravity-collisions',
+                component: ComponentCreator('/docs/module-02/gravity-collisions', 'db7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-02/humanoid-locomotion',
-                component: ComponentCreator('/ur/docs/module-02/humanoid-locomotion', 'b9e'),
+                path: '/docs/module-02/humanoid-locomotion',
+                component: ComponentCreator('/docs/module-02/humanoid-locomotion', '1df'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-02/module-summary',
-                component: ComponentCreator('/ur/docs/module-02/module-summary', '921'),
+                path: '/docs/module-02/module-summary',
+                component: ComponentCreator('/docs/module-02/module-summary', '2f3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-02/noise-latency',
-                component: ComponentCreator('/ur/docs/module-02/noise-latency', '3bd'),
+                path: '/docs/module-02/noise-latency',
+                component: ComponentCreator('/docs/module-02/noise-latency', '68c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-02/photorealism',
-                component: ComponentCreator('/ur/docs/module-02/photorealism', 'da0'),
+                path: '/docs/module-02/photorealism',
+                component: ComponentCreator('/docs/module-02/photorealism', '36d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-02/physics-simulation',
-                component: ComponentCreator('/ur/docs/module-02/physics-simulation', '83f'),
+                path: '/docs/module-02/physics-simulation',
+                component: ComponentCreator('/docs/module-02/physics-simulation', '3df'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-02/sensor-modeling',
-                component: ComponentCreator('/ur/docs/module-02/sensor-modeling', 'cd2'),
+                path: '/docs/module-02/sensor-modeling',
+                component: ComponentCreator('/docs/module-02/sensor-modeling', '595'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-02/transfer-strategies',
-                component: ComponentCreator('/ur/docs/module-02/transfer-strategies', '6be'),
+                path: '/docs/module-02/transfer-strategies',
+                component: ComponentCreator('/docs/module-02/transfer-strategies', '26c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-02/unity-interaction',
-                component: ComponentCreator('/ur/docs/module-02/unity-interaction', '8c6'),
+                path: '/docs/module-02/unity-interaction',
+                component: ComponentCreator('/docs/module-02/unity-interaction', '14a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-03/accelerated-computing',
-                component: ComponentCreator('/ur/docs/module-03/accelerated-computing', '053'),
+                path: '/docs/module-03/accelerated-computing',
+                component: ComponentCreator('/docs/module-03/accelerated-computing', '820'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-03/autonomy-stack',
-                component: ComponentCreator('/ur/docs/module-03/autonomy-stack', '8e4'),
+                path: '/docs/module-03/autonomy-stack',
+                component: ComponentCreator('/docs/module-03/autonomy-stack', '737'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-03/gpu-physics-perception',
-                component: ComponentCreator('/ur/docs/module-03/gpu-physics-perception', '3fd'),
+                path: '/docs/module-03/gpu-physics-perception',
+                component: ComponentCreator('/docs/module-03/gpu-physics-perception', '6ac'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-03/isaac-ros-hw',
-                component: ComponentCreator('/ur/docs/module-03/isaac-ros-hw', 'c40'),
+                path: '/docs/module-03/isaac-ros-hw',
+                component: ComponentCreator('/docs/module-03/isaac-ros-hw', '2bd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-03/isaac-sim-architecture',
-                component: ComponentCreator('/ur/docs/module-03/isaac-sim-architecture', '34a'),
+                path: '/docs/module-03/isaac-sim-architecture',
+                component: ComponentCreator('/docs/module-03/isaac-sim-architecture', '5f3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-03/localization-mapping',
-                component: ComponentCreator('/ur/docs/module-03/localization-mapping', 'f79'),
+                path: '/docs/module-03/localization-mapping',
+                component: ComponentCreator('/docs/module-03/localization-mapping', 'b0e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-03/module-summary',
-                component: ComponentCreator('/ur/docs/module-03/module-summary', 'b7c'),
+                path: '/docs/module-03/module-summary',
+                component: ComponentCreator('/docs/module-03/module-summary', '57a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-03/nav2',
-                component: ComponentCreator('/ur/docs/module-03/nav2', 'e72'),
+                path: '/docs/module-03/nav2',
+                component: ComponentCreator('/docs/module-03/nav2', '761'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-03/path-planning',
-                component: ComponentCreator('/ur/docs/module-03/path-planning', '7ba'),
+                path: '/docs/module-03/path-planning',
+                component: ComponentCreator('/docs/module-03/path-planning', 'd81'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-03/synthetic-data',
-                component: ComponentCreator('/ur/docs/module-03/synthetic-data', 'cde'),
+                path: '/docs/module-03/synthetic-data',
+                component: ComponentCreator('/docs/module-03/synthetic-data', 'b63'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-03/training-vision-models',
-                component: ComponentCreator('/ur/docs/module-03/training-vision-models', 'c98'),
+                path: '/docs/module-03/training-vision-models',
+                component: ComponentCreator('/docs/module-03/training-vision-models', '39a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-03/visual-slam',
-                component: ComponentCreator('/ur/docs/module-03/visual-slam', '97e'),
+                path: '/docs/module-03/visual-slam',
+                component: ComponentCreator('/docs/module-03/visual-slam', '68e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-04/action-planning',
-                component: ComponentCreator('/ur/docs/module-04/action-planning', 'ae9'),
+                path: '/docs/module-04/action-planning',
+                component: ComponentCreator('/docs/module-04/action-planning', '049'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-04/dialog-management',
-                component: ComponentCreator('/ur/docs/module-04/dialog-management', '116'),
+                path: '/docs/module-04/dialog-management',
+                component: ComponentCreator('/docs/module-04/dialog-management', '114'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-04/feedback-loop',
-                component: ComponentCreator('/ur/docs/module-04/feedback-loop', 'f9e'),
+                path: '/docs/module-04/feedback-loop',
+                component: ComponentCreator('/docs/module-04/feedback-loop', '0e1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-04/llms-in-vla',
-                component: ComponentCreator('/ur/docs/module-04/llms-in-vla', '6d9'),
+                path: '/docs/module-04/llms-in-vla',
+                component: ComponentCreator('/docs/module-04/llms-in-vla', '8d4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-04/module-summary',
-                component: ComponentCreator('/ur/docs/module-04/module-summary', 'cec'),
+                path: '/docs/module-04/module-summary',
+                component: ComponentCreator('/docs/module-04/module-summary', '7f6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-04/multimodal-fusion',
-                component: ComponentCreator('/ur/docs/module-04/multimodal-fusion', 'a81'),
+                path: '/docs/module-04/multimodal-fusion',
+                component: ComponentCreator('/docs/module-04/multimodal-fusion', 'c0d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-04/personalization',
-                component: ComponentCreator('/ur/docs/module-04/personalization', 'e5a'),
+                path: '/docs/module-04/personalization',
+                component: ComponentCreator('/docs/module-04/personalization', 'd2f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-04/safety',
-                component: ComponentCreator('/ur/docs/module-04/safety', '280'),
+                path: '/docs/module-04/safety',
+                component: ComponentCreator('/docs/module-04/safety', '928'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-04/speech-and-voice',
-                component: ComponentCreator('/ur/docs/module-04/speech-and-voice', '328'),
+                path: '/docs/module-04/speech-and-voice',
+                component: ComponentCreator('/docs/module-04/speech-and-voice', 'a8e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-04/vision-perception',
-                component: ComponentCreator('/ur/docs/module-04/vision-perception', 'e72'),
+                path: '/docs/module-04/vision-perception',
+                component: ComponentCreator('/docs/module-04/vision-perception', 'f8c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ur/docs/module-04/vla-intro',
-                component: ComponentCreator('/ur/docs/module-04/vla-intro', 'a7f'),
+                path: '/docs/module-04/vla-intro',
+                component: ComponentCreator('/docs/module-04/vla-intro', '143'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -382,8 +417,8 @@ export default [
     ]
   },
   {
-    path: '/ur/',
-    component: ComponentCreator('/ur/', 'f17'),
+    path: '/',
+    component: ComponentCreator('/', 'e5f'),
     exact: true
   },
   {

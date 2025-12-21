@@ -1,15 +1,16 @@
 """
 Chat router for the Physical AI & Humanoid Robotics textbook
-Handles RAG chatbot functionality
+Handles RAG chatbot functionality and agent-based chatbot with file/web search
 """
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from typing import Optional, List, Dict
+from typing import Optional, List, Dict, Any
 import json
 import os
 from pathlib import Path
 from dotenv import load_dotenv
 import openai
+import asyncio
 
 # Load environment variables
 load_dotenv()
@@ -95,13 +96,18 @@ async def chat_query(request: ChatRequest):
     Process a chat query using RAG (Retrieval Augmented Generation)
     """
     # Safe testing mode to avoid external API/token usage
-    if os.getenv("MOCK_MODE", "false").lower() in ("1", "true", "yes"):
+    mock_mode_value = os.getenv("MOCK_MODE", "false")
+    is_mock_enabled = mock_mode_value.lower() in ("1", "true", "yes")
+    print(f"[/query] MOCK_MODE={mock_mode_value}, enabled={is_mock_enabled}")
+    
+    if is_mock_enabled:
         placeholder = _load_book_placeholder()
         mock_message = f"(mock) Received: {request.message}"
         sources = []
         if placeholder:
             mock_message += " (includes textbook placeholder content)"
             sources.append({"source": "book.txt", "snippet": placeholder[:200]})
+        print(f"[/query] Returning mock response")
         return ChatResponse(response=mock_message, sources=sources)
     try:
         # Lazy-import optional RAG dependencies (allows health checks without full stack)
@@ -163,6 +169,75 @@ async def list_modules():
     Return available module metadata for UI/RAG tooling.
     """
     return _collect_module_metadata()
+
+
+@router.post("/agent-query")
+async def agent_chat_query(request: ChatRequest):
+    """
+    Process a chat query using OpenAI API directly (simplified agent).
+    """
+    # Respect MOCK_MODE to avoid external calls during local/dev testing
+    mock_mode_value = os.getenv("MOCK_MODE", "false")
+    is_mock_enabled = mock_mode_value.lower() in ("1", "true", "yes")
+    print(f"[/agent-query] MOCK_MODE={mock_mode_value}, enabled={is_mock_enabled}")
+    
+    if is_mock_enabled:
+        placeholder = _load_book_placeholder()
+        mock_message = f"(mock-agent) Received: {request.message}"
+        if placeholder:
+            mock_message += " (includes textbook placeholder content)"
+        print(f"[/agent-query] Returning mock response")
+        return {
+            "response": mock_message,
+            "sources": [],
+            "reasoning": None,
+            "user_id": request.user_id
+        }
+    try:
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            raise HTTPException(status_code=500, detail="OPENAI_API_KEY not configured")
+        
+        # Use OpenAI client directly
+        client = openai.OpenAI(api_key=api_key)
+        
+        # Simple system prompt for the chatbot
+        system_prompt = """You are a helpful AI assistant for the Physical AI & Humanoid Robotics Textbook. 
+        Provide clear, concise answers about Physical AI, ROS 2, simulation, Isaac Sim, VLA, and robotics topics.
+        When possible, reference the textbook content. Be educational and supportive."""
+        
+        # Call OpenAI API
+        response = client.chat.completions.create(
+            model="gpt-4-turbo",
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": request.message}
+            ],
+            max_tokens=500,
+            temperature=0.7
+        )
+        
+        # Extract the response
+        answer = response.choices[0].message.content
+        
+        return {
+            "response": answer,
+            "sources": [],
+            "reasoning": None,
+            "user_id": request.user_id
+        }
+        
+    except openai.APIError as e:
+        raise HTTPException(
+            status_code=500, 
+            detail=f"OpenAI API error: {str(e)}"
+        )
+    except Exception as e:
+        raise HTTPException(
+            status_code=500, 
+            detail=f"Error processing agent query: {str(e)}"
+        )
+
 
 @router.get("/health")
 async def chat_health():

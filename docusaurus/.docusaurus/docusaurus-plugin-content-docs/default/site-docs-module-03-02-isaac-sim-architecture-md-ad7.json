@@ -5,10 +5,10 @@
   "source": "@site/docs/module-03/02-isaac-sim-architecture.md",
   "sourceDirName": "module-03",
   "slug": "/module-03/isaac-sim-architecture",
-  "permalink": "/ur/docs/module-03/isaac-sim-architecture",
+  "permalink": "/docs/module-03/isaac-sim-architecture",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/02-isaac-sim-architecture.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/02-isaac-sim-architecture.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "01 Accelerated Computing",
-    "permalink": "/ur/docs/module-03/accelerated-computing"
+    "permalink": "/docs/module-03/accelerated-computing"
   },
   "next": {
     "title": "03 GPU Physics & Perception",
-    "permalink": "/ur/docs/module-03/gpu-physics-perception"
+    "permalink": "/docs/module-03/gpu-physics-perception"
   }
 }

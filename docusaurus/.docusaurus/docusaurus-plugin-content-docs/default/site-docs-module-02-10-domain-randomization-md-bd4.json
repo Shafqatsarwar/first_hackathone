@@ -5,10 +5,10 @@
   "source": "@site/docs/module-02/10-domain-randomization.md",
   "sourceDirName": "module-02",
   "slug": "/module-02/domain-randomization",
-  "permalink": "/ur/docs/module-02/domain-randomization",
+  "permalink": "/docs/module-02/domain-randomization",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/10-domain-randomization.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/10-domain-randomization.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 10,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "09 Photorealism",
-    "permalink": "/ur/docs/module-02/photorealism"
+    "permalink": "/docs/module-02/photorealism"
   },
   "next": {
     "title": "11 Simulation-to-Real",
-    "permalink": "/ur/docs/module-02/transfer-strategies"
+    "permalink": "/docs/module-02/transfer-strategies"
   }
 }

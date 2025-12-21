@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repository Chatbot Widget</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .chatbot-send-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .chatbot-container {
+                width: 90vw;
+                height: 70vh;
+                bottom: 72px;
+                right: auto;
+                left: 5vw;
+            }
+
+            .chatbot-floating-btn {
+                width: 48px;
+                height: 48px;
+                font-size: 22px;
+            }
+
+            .message-content {
+                max-width: 85%;
+            }
+        }
+
+        /* Error Message */
+        .error-message {
+            color: #dc3545;
+            font-size: 12px;
+            padding: 8px 12px;
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Floating Chatbot Button -->
+    <button class="chatbot-floating-btn" id="chatbotBtn" title="Open Chatbot">
+        💬
+    </button>
+
+    <!-- Chatbot Container -->
+    <div class="chatbot-container" id="chatbotContainer">
+        <div class="chatbot-header">
+            <h2>💻 GitHub Repository Guide</h2>
+            <p>Ask anything about this repository</p>
+        </div>
+
+        <div class="chatbot-messages" id="chatbotMessages">
+            <div class="message bot">
+                <div class="message-content">
+                    👋 Hello! I'm your AI guide. Ask me anything about this GitHub repository
+                    (https://github.com/Shafqatsarwar/first_hackathone.git) or related topics. I'll search the
+                    repository first, then the web if needed!
+                </div>
+            </div>
+        </div>
+
+        <div class="chatbot-input-area">
+            <textarea class="chatbot-input-field" id="chatbotInput" placeholder="Ask your question..."
+                rows="1"></textarea>
+            <button class="chatbot-send-btn" id="chatbotSendBtn">Send</button>
+        </div>
+    </div>
+
+    <script>
+        // Configuration
+        const API_URL = 'http://localhost:8000/api/chat';
+        const AGENT_ENDPOINT = '/agent-query';
+        const FALLBACK_ENDPOINT = '/query';
+
+        // DOM Elements
+        const chatbotBtn = document.getElementById('chatbotBtn');
+        const chatbotContainer = document.getElementById('chatbotContainer');
+        const chatbotMessages = document.getElementById('chatbotMessages');
+        const chatbotInput = document.getElementById('chatbotInput');
+        const chatbotSendBtn = document.getElementById('chatbotSendBtn');
+
+        // Toggle chatbot visibility
+        chatbotBtn.addEventListener('click', () => {
+            chatbotContainer.classList.toggle('active');
+            chatbotBtn.classList.toggle('active');
+            if (chatbotContainer.classList.contains('active')) {
+                chatbotInput.focus();
+            }
+        });
+
+        // Auto-resize textarea
+        chatbotInput.addEventListener('input', () => {
+            chatbotInput.style.height = 'auto';
+            chatbotInput.style.height = Math.min(chatbotInput.scrollHeight, 80) + 'px';
+        });
+
+        // Send message on Enter key (Shift+Enter for new line)
+        chatbotInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+        });
+
+        // Send button click
+        chatbotSendBtn.addEventListener('click', sendMessage);
+
+        // Send message function
+        async function sendMessage() {
+            const message = chatbotInput.value.trim();
+            if (!message) return;
+
+            // Add user message to chat
+            addMessage(message, 'user');
+            chatbotInput.value = '';
+            chatbotInput.style.height = 'auto';
+            chatbotSendBtn.disabled = true;
+
+            // Add loading indicator
+            const loadingId = addLoadingMessage();
+
+            try {
+                // Try agent endpoint first
+                let response = await fetch(`${API_URL}${AGENT_ENDPOINT}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ message: message })
+                });
+
+                // Fallback to regular endpoint if agent not available
+                if (!response.ok && response.status === 500) {
+                    response = await fetch(`${API_URL}${FALLBACK_ENDPOINT}`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ message: message })
+                    });
+                }
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                removeLoadingMessage(loadingId);
+
+                // Extract response text
+                const responseText = data.response || data.output_text || 'No response received';
+                addMessage(responseText, 'bot');
+
+                // Show sources if available
+                if (data.sources && data.sources.length > 0) {
+                    const sourceText = `📌 Sources: ${data.sources.map(s => s.source || s).join(', ')}`;
+                    addMessage(sourceText, 'bot');
+                }
+            } catch (error) {
+                removeLoadingMessage(loadingId);
+                console.error('Error:', error);
+                addMessage(
+                    `❌ Error: ${error.message}. Please make sure the API server is running.`,
+                    'bot'
+                );
+            } finally {
+                chatbotSendBtn.disabled = false;
+                chatbotInput.focus();
+            }
+        }
+
+        // Add message to chat
+        function addMessage(text, sender) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}`;
+            messageDiv.innerHTML = `<div class="message-content">${escapeHtml(text)}</div>`;
+            chatbotMessages.appendChild(messageDiv);
+            chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
+            return messageDiv;
+        }
+
+        // Add loading indicator
+        function addLoadingMessage() {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message bot loading';
+            messageDiv.id = `loading-${Date.now()}`;
+            messageDiv.innerHTML = `
+                <div class="message-content">
+                    <div class="typing-indicator">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            `;
+            chatbotMessages.appendChild(messageDiv);
+            chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
+            return messageDiv.id;
+        }
+
+        // Remove loading indicator
+        function removeLoadingMessage(loadingId) {
+            const loadingElement = document.getElementById(loadingId);
+            if (loadingElement) {
+                loadingElement.remove();
+            }
+        }
+
+        // Escape HTML to prevent XSS
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+    </script>
+</body>
+
+</html>

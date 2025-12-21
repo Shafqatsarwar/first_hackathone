@@ -5,10 +5,10 @@
   "source": "@site/docs/module-04/07-dialog-management.md",
   "sourceDirName": "module-04",
   "slug": "/module-04/dialog-management",
-  "permalink": "/ur/docs/module-04/dialog-management",
+  "permalink": "/docs/module-04/dialog-management",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/07-dialog-management.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/07-dialog-management.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 7,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "06 Action Planning",
-    "permalink": "/ur/docs/module-04/action-planning"
+    "permalink": "/docs/module-04/action-planning"
   },
   "next": {
     "title": "08 Feedback Loops",
-    "permalink": "/ur/docs/module-04/feedback-loop"
+    "permalink": "/docs/module-04/feedback-loop"
   }
 }

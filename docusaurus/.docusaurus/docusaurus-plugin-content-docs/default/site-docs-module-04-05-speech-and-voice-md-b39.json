@@ -5,10 +5,10 @@
   "source": "@site/docs/module-04/05-speech-and-voice.md",
   "sourceDirName": "module-04",
   "slug": "/module-04/speech-and-voice",
-  "permalink": "/ur/docs/module-04/speech-and-voice",
+  "permalink": "/docs/module-04/speech-and-voice",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/05-speech-and-voice.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/05-speech-and-voice.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 5,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "04 Multimodal Fusion",
-    "permalink": "/ur/docs/module-04/multimodal-fusion"
+    "permalink": "/docs/module-04/multimodal-fusion"
   },
   "next": {
     "title": "06 Action Planning",
-    "permalink": "/ur/docs/module-04/action-planning"
+    "permalink": "/docs/module-04/action-planning"
   }
 }

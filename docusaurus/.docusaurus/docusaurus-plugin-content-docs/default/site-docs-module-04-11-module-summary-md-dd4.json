@@ -5,10 +5,10 @@
   "source": "@site/docs/module-04/11-module-summary.md",
   "sourceDirName": "module-04",
   "slug": "/module-04/module-summary",
-  "permalink": "/ur/docs/module-04/module-summary",
+  "permalink": "/docs/module-04/module-summary",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/11-module-summary.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/11-module-summary.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 11,
@@ -19,6 +19,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "10 Personalization",
-    "permalink": "/ur/docs/module-04/personalization"
+    "permalink": "/docs/module-04/personalization"
   }
 }

@@ -5,10 +5,10 @@
   "source": "@site/docs/module-01/07-llm-to-control.md",
   "sourceDirName": "module-01",
   "slug": "/module-01/llm-to-control",
-  "permalink": "/ur/docs/module-01/llm-to-control",
+  "permalink": "/docs/module-01/llm-to-control",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-01/07-llm-to-control.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-01/07-llm-to-control.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 7,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "06 Python Agents (rclpy)",
-    "permalink": "/ur/docs/module-01/python-agents-rclpy"
+    "permalink": "/docs/module-01/python-agents-rclpy"
   },
   "next": {
     "title": "08 Parameters & Runtime",
-    "permalink": "/ur/docs/module-01/parameters-runtime"
+    "permalink": "/docs/module-01/parameters-runtime"
   }
 }

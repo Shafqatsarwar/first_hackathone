@@ -5,10 +5,10 @@
   "source": "@site/docs/module-04/06-action-planning.md",
   "sourceDirName": "module-04",
   "slug": "/module-04/action-planning",
-  "permalink": "/ur/docs/module-04/action-planning",
+  "permalink": "/docs/module-04/action-planning",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/06-action-planning.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/06-action-planning.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 6,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "05 Speech & Voice",
-    "permalink": "/ur/docs/module-04/speech-and-voice"
+    "permalink": "/docs/module-04/speech-and-voice"
   },
   "next": {
     "title": "07 Dialog Management",
-    "permalink": "/ur/docs/module-04/dialog-management"
+    "permalink": "/docs/module-04/dialog-management"
   }
 }

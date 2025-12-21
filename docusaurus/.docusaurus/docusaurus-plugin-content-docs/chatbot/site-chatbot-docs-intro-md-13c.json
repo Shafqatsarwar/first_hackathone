@@ -5,7 +5,7 @@
   "source": "@site/chatbot/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/",
-  "permalink": "/ur/chatbot/",
+  "permalink": "/chatbot/",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,6 +18,6 @@
   "sidebar": "chatbotSidebar",
   "next": {
     "title": "Demo Chapter — Project Requirements Summary",
-    "permalink": "/ur/chatbot/book-chapter"
+    "permalink": "/chatbot/book-chapter"
   }
 }

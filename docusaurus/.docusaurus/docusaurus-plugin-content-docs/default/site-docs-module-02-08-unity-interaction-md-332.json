@@ -5,10 +5,10 @@
   "source": "@site/docs/module-02/08-unity-interaction.md",
   "sourceDirName": "module-02",
   "slug": "/module-02/unity-interaction",
-  "permalink": "/ur/docs/module-02/unity-interaction",
+  "permalink": "/docs/module-02/unity-interaction",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/08-unity-interaction.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/08-unity-interaction.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 8,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "07 Noise & Latency",
-    "permalink": "/ur/docs/module-02/noise-latency"
+    "permalink": "/docs/module-02/noise-latency"
   },
   "next": {
     "title": "09 Photorealism",
-    "permalink": "/ur/docs/module-02/photorealism"
+    "permalink": "/docs/module-02/photorealism"
   }
 }

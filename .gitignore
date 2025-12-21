@@ -12,3 +12,22 @@ __pycache__/
 node_modules/
 build/
 dist/
+
+# Large files
+*.pdf
+*.PDF
+
+# Test and temporary files
+test_mock_mode.py
+$null
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.log
+*.sqlite
+*.db

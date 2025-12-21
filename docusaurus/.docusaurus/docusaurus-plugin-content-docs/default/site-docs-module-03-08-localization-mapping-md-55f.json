@@ -5,10 +5,10 @@
   "source": "@site/docs/module-03/08-localization-mapping.md",
   "sourceDirName": "module-03",
   "slug": "/module-03/localization-mapping",
-  "permalink": "/ur/docs/module-03/localization-mapping",
+  "permalink": "/docs/module-03/localization-mapping",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/08-localization-mapping.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/08-localization-mapping.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 8,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "07 Isaac ROS",
-    "permalink": "/ur/docs/module-03/isaac-ros-hw"
+    "permalink": "/docs/module-03/isaac-ros-hw"
   },
   "next": {
     "title": "09 Nav2 Navigation",
-    "permalink": "/ur/docs/module-03/nav2"
+    "permalink": "/docs/module-03/nav2"
   }
 }

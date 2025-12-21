@@ -5,10 +5,10 @@
   "source": "@site/docs/book-overview.md",
   "sourceDirName": ".",
   "slug": "/book-overview",
-  "permalink": "/ur/docs/book-overview",
+  "permalink": "/docs/book-overview",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/book-overview.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/book-overview.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Physical AI Textbook Landing",
-    "permalink": "/ur/docs/intro"
+    "permalink": "/docs/intro"
   },
   "next": {
     "title": "01 Physical AI Nervous System",
-    "permalink": "/ur/docs/module-01/physical-ai-nervous-system"
+    "permalink": "/docs/module-01/physical-ai-nervous-system"
   }
 }

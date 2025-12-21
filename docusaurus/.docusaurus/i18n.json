@@ -5,12 +5,12 @@
     "ur"
   ],
   "path": "i18n",
-  "currentLocale": "ur",
+  "currentLocale": "en",
   "localeConfigs": {
     "en": {
       "label": "English",
       "direction": "ltr",
-      "htmlLang": "en",
+      "htmlLang": "en-US",
       "calendar": "gregory",
       "path": "en",
       "translate": false,
@@ -19,7 +19,7 @@
     },
     "ur": {
       "label": "اردو",
-      "direction": "rtl",
+      "direction": "ltr",
       "htmlLang": "ur",
       "calendar": "gregory",
       "path": "ur",

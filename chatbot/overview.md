@@ -1,8 +1,8 @@
-# RAG Chatbot for Physical AI & Humanoid Robotics Textbook
+# RAG Chatbot for GitHub Repository
 
 ## Overview
 
-The RAG (Retrieval-Augmented Generation) chatbot is an integral part of this AI-native textbook. It allows students to ask questions about the course content and receive intelligent, context-aware responses based on the textbook material.
+The RAG (Retrieval-Augmented Generation) chatbot is an integral part of this project. It allows users to ask questions about the GitHub repository (https://github.com/Shafqatsarwar/first_hackathone.git) and receive intelligent, context-aware responses based on the repository content.
 
 ## Architecture
 
@@ -14,7 +14,7 @@ The chatbot uses the following technologies:
 
 ## How It Works
 
-1. **Indexing**: All textbook content is processed and converted to vector embeddings stored in Qdrant
+1. **Indexing**: All repository content is processed and converted to vector embeddings stored in Qdrant
 2. **Query Processing**: When a user asks a question, it's converted to a vector embedding
 3. **Retrieval**: The system finds the most relevant content chunks based on vector similarity
 4. **Generation**: The LLM generates a response using the retrieved content as context
@@ -22,9 +22,9 @@ The chatbot uses the following technologies:
 
 ## Features
 
-- Answer questions based on textbook content
+- Answer questions based on repository content
 - Provide explanations of complex concepts
-- Help students find specific information in the textbook
+- Help users find specific information in the repository
 - Support for context-aware responses based on selected text
 - Personalized responses based on user profile and background
 

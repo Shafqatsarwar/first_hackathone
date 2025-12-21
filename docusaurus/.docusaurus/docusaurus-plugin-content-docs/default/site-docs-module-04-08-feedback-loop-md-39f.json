@@ -5,10 +5,10 @@
   "source": "@site/docs/module-04/08-feedback-loop.md",
   "sourceDirName": "module-04",
   "slug": "/module-04/feedback-loop",
-  "permalink": "/ur/docs/module-04/feedback-loop",
+  "permalink": "/docs/module-04/feedback-loop",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/08-feedback-loop.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/08-feedback-loop.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 8,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "07 Dialog Management",
-    "permalink": "/ur/docs/module-04/dialog-management"
+    "permalink": "/docs/module-04/dialog-management"
   },
   "next": {
     "title": "09 Safety",
-    "permalink": "/ur/docs/module-04/safety"
+    "permalink": "/docs/module-04/safety"
   }
 }

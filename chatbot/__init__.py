@@ -1,4 +1,4 @@
-"""RAG Chatbot package for the Physical AI textbook.
+"""RAG Chatbot package for the GitHub repository.
 
 This module exposes a small initializer and uses `env_utils.load_env` to
 centralize environment loading and validation. Keep secrets out of the

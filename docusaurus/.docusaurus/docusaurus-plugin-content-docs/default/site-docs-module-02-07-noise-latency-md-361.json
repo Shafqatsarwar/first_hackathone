@@ -5,10 +5,10 @@
   "source": "@site/docs/module-02/07-noise-latency.md",
   "sourceDirName": "module-02",
   "slug": "/module-02/noise-latency",
-  "permalink": "/ur/docs/module-02/noise-latency",
+  "permalink": "/docs/module-02/noise-latency",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/07-noise-latency.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/07-noise-latency.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 7,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "06 Sensor Modeling",
-    "permalink": "/ur/docs/module-02/sensor-modeling"
+    "permalink": "/docs/module-02/sensor-modeling"
   },
   "next": {
     "title": "08 Unity Interaction",
-    "permalink": "/ur/docs/module-02/unity-interaction"
+    "permalink": "/docs/module-02/unity-interaction"
   }
 }

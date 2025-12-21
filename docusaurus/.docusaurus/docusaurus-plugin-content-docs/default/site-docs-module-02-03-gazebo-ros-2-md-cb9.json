@@ -5,10 +5,10 @@
   "source": "@site/docs/module-02/03-gazebo-ros2.md",
   "sourceDirName": "module-02",
   "slug": "/module-02/gazebo-ros2",
-  "permalink": "/ur/docs/module-02/gazebo-ros2",
+  "permalink": "/docs/module-02/gazebo-ros2",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/03-gazebo-ros2.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/03-gazebo-ros2.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "02 Physics Simulation",
-    "permalink": "/ur/docs/module-02/physics-simulation"
+    "permalink": "/docs/module-02/physics-simulation"
   },
   "next": {
     "title": "04 Gravity & Collisions",
-    "permalink": "/ur/docs/module-02/gravity-collisions"
+    "permalink": "/docs/module-02/gravity-collisions"
   }
 }

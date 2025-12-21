@@ -17,6 +17,14 @@ app = FastAPI(
     version="1.0.0"
 )
 
+# Log MOCK_MODE status on startup
+mock_mode_status = os.getenv("MOCK_MODE", "false")
+print(f"\n{'='*60}")
+print(f"🚀 API Starting...")
+print(f"📋 MOCK_MODE: {mock_mode_status}")
+print(f"✅ Mock responses enabled: {mock_mode_status.lower() in ('1', 'true', 'yes')}")
+print(f"{'='*60}\n")
+
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,

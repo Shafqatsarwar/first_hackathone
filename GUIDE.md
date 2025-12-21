@@ -1,4 +1,5 @@
 """Keys & Secrets Guide (Windows PowerShell)
+uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
 
 This short guide documents only environment variables (service keys/URLs) and Windows PowerShell commands to verify them. Keep secrets in a local `.env` file at the repository root and do NOT commit it.
 

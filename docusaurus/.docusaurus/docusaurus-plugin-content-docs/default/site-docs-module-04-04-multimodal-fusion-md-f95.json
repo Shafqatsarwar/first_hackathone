@@ -5,10 +5,10 @@
   "source": "@site/docs/module-04/04-multimodal-fusion.md",
   "sourceDirName": "module-04",
   "slug": "/module-04/multimodal-fusion",
-  "permalink": "/ur/docs/module-04/multimodal-fusion",
+  "permalink": "/docs/module-04/multimodal-fusion",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/04-multimodal-fusion.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/04-multimodal-fusion.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "03 Vision Perception",
-    "permalink": "/ur/docs/module-04/vision-perception"
+    "permalink": "/docs/module-04/vision-perception"
   },
   "next": {
     "title": "05 Speech & Voice",
-    "permalink": "/ur/docs/module-04/speech-and-voice"
+    "permalink": "/docs/module-04/speech-and-voice"
   }
 }

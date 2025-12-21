@@ -5,10 +5,10 @@
   "source": "@site/docs/module-02/04-gravity-collisions.md",
   "sourceDirName": "module-02",
   "slug": "/module-02/gravity-collisions",
-  "permalink": "/ur/docs/module-02/gravity-collisions",
+  "permalink": "/docs/module-02/gravity-collisions",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/04-gravity-collisions.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/04-gravity-collisions.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "03 Gazebo + ROS 2",
-    "permalink": "/ur/docs/module-02/gazebo-ros2"
+    "permalink": "/docs/module-02/gazebo-ros2"
   },
   "next": {
     "title": "05 Humanoid Locomotion",
-    "permalink": "/ur/docs/module-02/humanoid-locomotion"
+    "permalink": "/docs/module-02/humanoid-locomotion"
   }
 }

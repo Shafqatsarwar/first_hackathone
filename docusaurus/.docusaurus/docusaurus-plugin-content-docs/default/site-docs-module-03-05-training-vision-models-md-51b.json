@@ -5,10 +5,10 @@
   "source": "@site/docs/module-03/05-training-vision-models.md",
   "sourceDirName": "module-03",
   "slug": "/module-03/training-vision-models",
-  "permalink": "/ur/docs/module-03/training-vision-models",
+  "permalink": "/docs/module-03/training-vision-models",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/05-training-vision-models.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-03/05-training-vision-models.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 5,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "04 Synthetic Data",
-    "permalink": "/ur/docs/module-03/synthetic-data"
+    "permalink": "/docs/module-03/synthetic-data"
   },
   "next": {
     "title": "06 Visual SLAM",
-    "permalink": "/ur/docs/module-03/visual-slam"
+    "permalink": "/docs/module-03/visual-slam"
   }
 }

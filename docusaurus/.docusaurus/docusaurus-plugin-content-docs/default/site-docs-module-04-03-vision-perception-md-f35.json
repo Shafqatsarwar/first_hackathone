@@ -5,10 +5,10 @@
   "source": "@site/docs/module-04/03-vision-perception.md",
   "sourceDirName": "module-04",
   "slug": "/module-04/vision-perception",
-  "permalink": "/ur/docs/module-04/vision-perception",
+  "permalink": "/docs/module-04/vision-perception",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/03-vision-perception.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/03-vision-perception.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "02 LLMs",
-    "permalink": "/ur/docs/module-04/llms-in-vla"
+    "permalink": "/docs/module-04/llms-in-vla"
   },
   "next": {
     "title": "04 Multimodal Fusion",
-    "permalink": "/ur/docs/module-04/multimodal-fusion"
+    "permalink": "/docs/module-04/multimodal-fusion"
   }
 }

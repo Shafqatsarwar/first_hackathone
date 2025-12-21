@@ -5,10 +5,10 @@
   "source": "@site/docs/module-04/02-llms-in-vla.md",
   "sourceDirName": "module-04",
   "slug": "/module-04/llms-in-vla",
-  "permalink": "/ur/docs/module-04/llms-in-vla",
+  "permalink": "/docs/module-04/llms-in-vla",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/02-llms-in-vla.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-04/02-llms-in-vla.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "01 VLA Overview",
-    "permalink": "/ur/docs/module-04/vla-intro"
+    "permalink": "/docs/module-04/vla-intro"
   },
   "next": {
     "title": "03 Vision Perception",
-    "permalink": "/ur/docs/module-04/vision-perception"
+    "permalink": "/docs/module-04/vision-perception"
   }
 }

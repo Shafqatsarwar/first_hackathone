@@ -5,10 +5,10 @@
   "source": "@site/docs/module-02/09-photorealism.md",
   "sourceDirName": "module-02",
   "slug": "/module-02/photorealism",
-  "permalink": "/ur/docs/module-02/photorealism",
+  "permalink": "/docs/module-02/photorealism",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/09-photorealism.md",
+  "editUrl": "https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/docs/module-02/09-photorealism.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 9,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "08 Unity Interaction",
-    "permalink": "/ur/docs/module-02/unity-interaction"
+    "permalink": "/docs/module-02/unity-interaction"
   },
   "next": {
     "title": "10 Domain Randomization",
-    "permalink": "/ur/docs/module-02/domain-randomization"
+    "permalink": "/docs/module-02/domain-randomization"
   }
 }

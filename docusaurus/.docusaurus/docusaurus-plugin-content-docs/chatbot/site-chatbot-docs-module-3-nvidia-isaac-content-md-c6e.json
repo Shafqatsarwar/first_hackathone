@@ -5,7 +5,7 @@
   "source": "@site/chatbot/docs/module3_nvidia_isaac/content.md",
   "sourceDirName": "module3_nvidia_isaac",
   "slug": "/module3_nvidia_isaac/content",
-  "permalink": "/ur/chatbot/module3_nvidia_isaac/content",
+  "permalink": "/chatbot/module3_nvidia_isaac/content",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,10 +14,10 @@
   "sidebar": "chatbotSidebar",
   "previous": {
     "title": "Module 2: The Digital Twin (Gazebo & Unity)",
-    "permalink": "/ur/chatbot/module2_simulation/content"
+    "permalink": "/chatbot/module2_simulation/content"
   },
   "next": {
     "title": "Module 4: Vision-Language-Action (VLA)",
-    "permalink": "/ur/chatbot/module4_vla/content"
+    "permalink": "/chatbot/module4_vla/content"
   }
 }

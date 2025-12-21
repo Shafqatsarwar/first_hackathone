@@ -2,10 +2,32 @@
 :root {
   --ifm-color-primary: #0b5fff;
   --ifm-color-secondary: #0b3f9f;
+  --ifm-text-color-base: #1a1a1a;
+  --ifm-heading-color: #0a0a0a;
+  --ifm-background-color: #ffffff;
+  --ifm-card-background-color: #ffffff;
+}
+
+/* Light theme */
+html[data-theme='light'] {
+  --ifm-text-color-base: #1a1a1a;
+  --ifm-heading-color: #0a0a0a;
+  --ifm-background-color: #ffffff;
+  --ifm-card-background-color: #ffffff;
+}
+
+/* Dark theme */
+html[data-theme='dark'] {
+  --ifm-text-color-base: #e8e8e8;
+  --ifm-heading-color: #ffffff;
+  --ifm-background-color: #1a1a1a;
+  --ifm-card-background-color: #2d2d2d;
 }
 
 html, body {
   font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  color: var(--ifm-text-color-base);
+  background-color: var(--ifm-background-color);
 }
 
 .theme-light .navbar {

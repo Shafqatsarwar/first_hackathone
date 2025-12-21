@@ -1,7 +1,7 @@
 // docusaurus.config.js
 // Configuration for the Physical AI & Humanoid Robotics textbook website
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -17,8 +17,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'panaversity', // Usually your GitHub org/user name.
-  projectName: 'physical-ai-textbook', // Usually your repo name.
+  organizationName: 'Shafqatsarwar', // Usually your GitHub org/user name.
+  projectName: 'first_hackathone', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -53,7 +53,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/panaversity/physical-ai-textbook/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Shafqatsarwar/first_hackathone/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: false, // Disable blog for textbook
         theme: {
@@ -86,7 +86,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/panaversity/physical-ai-textbook',
+            href: 'https://github.com/Shafqatsarwar/first_hackathone',
             label: 'GitHub',
             position: 'right',
           },
@@ -122,7 +122,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/panaversity/physical-ai-textbook',
+                href: 'https://github.com/Shafqatsarwar/first_hackathone',
               },
             ],
           },
